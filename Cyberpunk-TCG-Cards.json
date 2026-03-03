@@ -1,4 +1,55 @@
 {
+  "ms01-wnca-116": {
+    "id": "ms01-wnca-116",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Afterparty at Lizzie's",
+        "type": "Program",
+        "cost": 2,
+        "image": "https://cdn.imgchest.com/files/d06d18189fbc.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Afterparty at Lizzy's",
+    "type": "Program",
+    "cost": 2,
+    "RAM Color": "🟨 Yellow"
+  },
+  "ms01-wnca-125": {
+    "id": "ms01-wnca-125",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Goro Takemura - Vengeful Bodyguard",
+        "type": "Legend",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/e9ef130b7d3d.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Goro Takemura - Vengeful Bodyguard",
+    "type": "Legend",
+    "cost": 0,
+    "RAM Color": "🟩 Green"
+  },
+  "ms01-wnca-135": {
+    "id": "ms01-wnca-135",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "River Wards - Detective on the Hunt",
+        "type": "Legend",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/1e6ebd5cec78.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "River Wards - Detective on the Hunt",
+    "type": "Legend",
+    "cost": 0,
+    "RAM Color": "🟨 Yellow"
+  },
   "a001": {
     "id": "a001",
     "isToken": false,
