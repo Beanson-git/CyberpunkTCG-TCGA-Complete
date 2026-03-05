@@ -1,4 +1,21 @@
 {
+  "ms01-wnca-111": {
+    "id": "ms01-wnca-111",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Gorilla Arms",
+        "type": "Gear",
+        "cost": 4,
+        "image": "https://cdn.imgchest.com/files/476082a11a6b.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gorilla Arms",
+    "type": "Gear",
+    "cost": 4,
+    "RAM Color": "🟨 Yellow"
+  },
   "ms01-wnca-116": {
     "id": "ms01-wnca-116",
     "isToken": false,
@@ -15,6 +32,23 @@
     "type": "Program",
     "cost": 2,
     "RAM Color": "🟨 Yellow"
+  },
+  "ms01-wnca-122": {
+    "id": "ms01-wnca-122",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Evelyn Parker - Beautiful Enigma",
+        "type": "Legend",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/175a78832d18.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Evelyn Parker - Beautiful Enigma",
+    "type": "Legend",
+    "cost": 0,
+    "RAM Color": "🟦 Blue"
   },
   "ms01-wnca-125": {
     "id": "ms01-wnca-125",
