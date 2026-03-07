@@ -84,6 +84,23 @@
     "cost": 0,
     "RAM Color": "🟨 Yellow"
   },
+  "ms01-wnca-137": {
+    "id": "ms01-wnca-137",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Adam Smasher - Metal Over Meat",
+        "type": "Unit",
+        "cost": 9,
+        "image": "https://cdn.imgchest.com/files/2fa4d0e7d6fb.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Adam Smasher - Metal Over Meat",
+    "type": "Unit",
+    "cost": 9,
+    "RAM Color": "🟨 Yellow"
+  },
   "a001": {
     "id": "a001",
     "isToken": false,
