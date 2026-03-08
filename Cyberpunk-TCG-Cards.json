@@ -67,6 +67,23 @@
     "cost": 0,
     "RAM Color": "🟩 Green"
   },
+  "ms01-wnca-133": {
+    "id": "ms01-wnca-133",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Dum Dum - Maelstrom Triggerman",
+        "type": "Legend",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/521e3d226ea9.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dum Dum - Maelstrom Triggerman",
+    "type": "Legend",
+    "cost": 0,
+    "RAM Color": "🟨 Yellow"
+  },
   "ms01-wnca-135": {
     "id": "ms01-wnca-135",
     "isToken": false,
