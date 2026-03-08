@@ -1,4 +1,21 @@
 {
+  "ms01-wnca-067": {
+    "id": "ms01-wnca-067",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kerry Eurodyne - The Last Rockerboy",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://cdn.imgchest.com/files/5def701b5039.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Kerry Eurodyne - The Last Rockerboy",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟥 Red"
+  },
   "ms01-wnca-111": {
     "id": "ms01-wnca-111",
     "isToken": false,
