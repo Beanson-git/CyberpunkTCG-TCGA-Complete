@@ -1,4 +1,21 @@
 {
+  "ms01-wnca-042": {
+    "id": "ms01-wnca-042",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Riding Nomad",
+        "type": "Unit",
+        "cost": 6,
+        "image": "https://cdn.imgchest.com/files/a36076e6a87d.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Riding Nomad",
+    "type": "Unit",
+    "cost": 6,
+    "RAM Color": "🟩 Green"
+  },
   "ms01-wnca-067": {
     "id": "ms01-wnca-067",
     "isToken": false,
@@ -83,6 +100,23 @@
     "type": "Legend",
     "cost": 0,
     "RAM Color": "🟩 Green"
+  },
+  "ms01-wnca-131": {
+    "id": "ms01-wnca-131",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Royce - Psycho on the Edge",
+        "type": "Legend",
+        "cost": 6,
+        "image": "https://cdn.imgchest.com/files/05969e2b3287.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Royce - Psycho on the Edge",
+    "type": "Legend",
+    "cost": 6,
+    "RAM Color": "🟥 Red"
   },
   "ms01-wnca-133": {
     "id": "ms01-wnca-133",
