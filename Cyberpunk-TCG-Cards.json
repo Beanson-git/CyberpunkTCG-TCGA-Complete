@@ -33,6 +33,23 @@
     "cost": 4,
     "RAM Color": "🟥 Red"
   },
+  "ms01-wnca-069": {
+    "id": "ms01-wnca-069",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Meredith Stout - Stone Cold Corpo",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://cdn.imgchest.com/files/1612b6ea8133.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Meredith Stout - Stone Cold Corpo",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟥 Red"
+  },
   "ms01-wnca-111": {
     "id": "ms01-wnca-111",
     "isToken": false,
