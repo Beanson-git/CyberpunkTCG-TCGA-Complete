@@ -118,6 +118,23 @@
     "cost": 0,
     "RAM Color": "🟩 Green"
   },
+  "ms01-wnca-126": {
+    "id": "ms01-wnca-126",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Hanako Arasaka - In a Gilded Cage",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://cdn.imgchest.com/files/0fcbda619f01.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hanako Arasaka - In a Gilded Cage",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟨 Yellow"
+  },
   "ms01-wnca-131": {
     "id": "ms01-wnca-131",
     "isToken": false,
