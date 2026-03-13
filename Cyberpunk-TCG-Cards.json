@@ -1,4 +1,21 @@
 {
+  "ms01-wnca-032": {
+    "id": "ms01-wnca-032",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Panam Palmer - Nomad Cavalry",
+        "type": "Legend",
+        "cost": 0,
+        "image": "https://cdn.imgchest.com/files/63e3cc809eae.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Panam Palmer - Nomad Cavalry",
+    "type": "Legend",
+    "cost": 0,
+    "RAM Color": "🟩 Green"
+  },
   "ms01-wnca-042": {
     "id": "ms01-wnca-042",
     "isToken": false,
