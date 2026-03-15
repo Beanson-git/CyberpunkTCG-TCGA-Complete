@@ -101,6 +101,23 @@
     "cost": 2,
     "RAM Color": "🟨 Yellow"
   },
+  "ms01-wnca-121": {
+    "id": "ms01-wnca-121",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Alt Cunningham - Soulkiller Architect",
+        "type": "Legend",
+        "cost": 6,
+        "image": "https://cdn.imgchest.com/files/910b0945c1e4.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Alt Cunningham - Soulkiller Architect",
+    "type": "Legend",
+    "cost": 6,
+    "RAM Color": "🟦 Blue"
+  },
   "ms01-wnca-122": {
     "id": "ms01-wnca-122",
     "isToken": false,
@@ -167,6 +184,23 @@
     "name": "Royce - Psycho on the Edge",
     "type": "Legend",
     "cost": 6,
+    "RAM Color": "🟥 Red"
+  },
+  "ms01-wnca-132": {
+    "id": "ms01-wnca-132",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "V - Streetkid",
+        "type": "Legend",
+        "cost": 4,
+        "image": "https://cdn.imgchest.com/files/022e905f51b3.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "V - Streetkid",
+    "type": "Legend",
+    "cost": 4,
     "RAM Color": "🟥 Red"
   },
   "ms01-wnca-133": {
