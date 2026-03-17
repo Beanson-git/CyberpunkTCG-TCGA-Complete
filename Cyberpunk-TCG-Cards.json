@@ -186,6 +186,23 @@
     "cost": 6,
     "RAM Color": "🟥 Red"
   },
+  "ms01-wnca-132-a": {
+    "id": "ms01-wnca-132-a",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "V - Streetkid",
+        "type": "Legend",
+        "cost": 4,
+        "image": "https://cdn.imgchest.com/files/0c3508bf994b.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "V - Streetkid",
+    "type": "Legend",
+    "cost": 4,
+    "RAM Color": "🟥 Red"
+  },
   "ms01-wnca-132": {
     "id": "ms01-wnca-132",
     "isToken": false,
