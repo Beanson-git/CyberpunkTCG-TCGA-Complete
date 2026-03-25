@@ -67,6 +67,40 @@
     "cost": 4,
     "RAM Color": "🟥 Red"
   },
+  "ms01-wnca-073": {
+    "id": "ms01-wnca-073",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Placide - Voodoo Sentinel",
+        "type": "Unit",
+        "cost": 8,
+        "image": "https://exburst.dev/cyberpunk/cards/hd/b073_1773926146600.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Placide - Voodoo Sentinel",
+    "type": "Unit",
+    "cost": 8,
+    "RAM Color": "🟦 Blue"
+  },
+  "ms01-wnca-102": {
+    "id": "ms01-wnca-102",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Cyberpsychosis",
+        "type": "Program",
+        "cost": 2,
+        "image": "https://exburst.dev/cyberpunk/cards/hd/b102_1773925765842.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cyberpsychosis",
+    "type": "Program",
+    "cost": 2,
+    "RAM Color": "🟨 Yellow"
+  },
   "ms01-wnca-111": {
     "id": "ms01-wnca-111",
     "isToken": false,
