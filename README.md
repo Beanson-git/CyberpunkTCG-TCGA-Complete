@@ -1,0 +1,2 @@
+Testing URL:
+https://tcg-arena.fr/load/aHR0cHMlM0ElMkYlMkZydXNzZXVzLmdpdGh1Yi5pbyUyRkN5YmVycHVua1RDRy1UQ0dBJTJGVGVzdCUyRkN5YmVycHVuay1UQ0ctR2FtZS5qc29u
