@@ -9,7 +9,7 @@
     ],
     "decksUrl": "https://russeus.github.io/CyberpunkTCG-TCGA/Cyberpunk-TCG-Decks.json"
   },
-  "customHelp": "(1) Legends are already shuffled at the start of a game.\n(2) Resources will be auto paid if you put a card on the Field or on the Stack (right zone, above the chat). If you want to pay your resources manually, you can deactivate the autopay feature on the Preferences button on the left menu.\n(3) When you put a card on your Eddies zone, you don't need to reveal it to your opponent, it will be visible in the logs.\n(4) To roll a Gig, use the 'Roll a dice' button on the left menu, then you can enter the number on the fields over each dice. Right are friendly Gigs, left are Rival Gigs.\n(5) You can peek a hidden card with context menu 'Visible by' -> 'Only You' and then hide it to 'All'.\n(6) While you hold 'G', you can click on a Gear and the on a Unit to attach it. You can use contex menu also.\n(7) You can quickly discard cards with 'D + click'\n(8) Use 'Ctrl + C + click' or 'C + click' to add counters to cards and manage their Power.\n(9) You can play with yourself by opening another tab and use your own code to connect with yourself.\n\nThis project is not affiliated with Cyberpunk TCG, WeirdCo or CD Projekt Red.",
+  "customHelp": "(1) Legends are already shuffled at the start of a game.\n(2) Resources will be auto paid if you put a card on the Field or on the Stack (right zone, above the chat). If you want to pay your resources manually, you can deactivate the autopay feature on the Preferences button on the left menu.\n(3) When you put a card on your Eddies zone, you don't need to reveal it to your opponent, it will be visible in the logs.\n(4) You can peek a hidden card with context menu 'Visible by' -> 'Only You' and then hide it to 'All'.\n(5) While you hold 'G', you can click on a Gear and the on a Unit to attach it. You can use contex menu also.\n(6) You can quickly discard cards with 'D + click'\n(7) Use 'Ctrl + C + click' or 'C + click' to add counters to cards and manage their Power.\n(8) You can play with yourself by opening another tab and use your own code to connect with yourself.\n\nThis project is not affiliated with Cyberpunk TCG, WeirdCo or CD Projekt Red.",
   "cardRotation": "90",
   "cards": {
     "dataUrl": "https://russeus.github.io/CyberpunkTCG-TCGA/Test/Cyberpunk-TCG-Cards.json",
@@ -37,7 +37,7 @@
     "Classic": {
       "mulligan": {
         "info": "If you want, you can shuffle your hand back into your deck and draw 6 new cards, but only once.",
-        "startingHandSize": "0",
+        "startingHandSize": "6",
         "drawNewHand": true,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
@@ -107,80 +107,101 @@
             "startsShuffled": true,
             "showHiddenCardInHistory": true
           },
+          "Totals": {
+            "type": "custom",
+            "defaultValue": {
+              "my": 0,
+              "opp": 0
+            }
+          },
+          "MyGigs": {
+            "type": "custom",
+            "defaultValue": {
+              "dices": [
+                {
+                  "dice": 4,
+                  "value": 0,
+                  "stolen": false
+                },
+                {
+                  "dice": 6,
+                  "value": 0,
+                  "stolen": false
+                },
+                {
+                  "dice": 8,
+                  "value": 0,
+                  "stolen": false
+                },
+                {
+                  "dice": 10,
+                  "value": 0,
+                  "stolen": false
+                },
+                {
+                  "dice": 12,
+                  "value": 0,
+                  "stolen": false
+                },
+                {
+                  "dice": 20,
+                  "value": 0,
+                  "stolen": false
+                }
+              ],
+              "hasRolled": false
+            },
+            "events": {
+              "onUpdate": "const sum = (a, c) => (a || []).reduce((s, d) => s + (c(d) ? (Number(d.value) || 0) : 0), 0); game.data.Totals.my = sum(game.data.MyGigs?.dices, d => !d.stolen) + sum(game.data.OppGigs?.dices, d => d.stolen); game.data.Totals.opp = sum(game.data.OppGigs?.dices, d => !d.stolen) + sum(game.data.MyGigs?.dices, d => d.stolen);",
+              "onOpponentUpdate": "game.data.OppGigs = opponentGame.data.MyGigs",
+              "onNewTurn": "game.data.MyGigs.hasRolled = false"
+            }
+          },
+          "OppGigs": {
+            "type": "custom",
+            "defaultValue": {
+              "dices": [
+                {
+                  "dice": 4,
+                  "value": 0,
+                  "stolen": false
+                },
+                {
+                  "dice": 6,
+                  "value": 0,
+                  "stolen": false
+                },
+                {
+                  "dice": 8,
+                  "value": 0,
+                  "stolen": false
+                },
+                {
+                  "dice": 10,
+                  "value": 0,
+                  "stolen": false
+                },
+                {
+                  "dice": 12,
+                  "value": 0,
+                  "stolen": false
+                },
+                {
+                  "dice": 20,
+                  "value": 0,
+                  "stolen": false
+                }
+              ],
+              "hasRolled": false
+            },
+            "events": {
+              "onUpdate": "const sum = (a, c) => (a || []).reduce((s, d) => s + (c(d) ? (Number(d.value) || 0) : 0), 0); game.data.Totals.my = sum(game.data.MyGigs?.dices, d => !d.stolen) + sum(game.data.OppGigs?.dices, d => d.stolen); game.data.Totals.opp = sum(game.data.OppGigs?.dices, d => !d.stolen) + sum(game.data.MyGigs?.dices, d => d.stolen);",
+              "onOpponentUpdate": "game.data.MyGigs = opponentGame.data.OppGigs"
+            }
+          },
           "Gigs": {
             "type": "custom",
             "isShared": true,
-            "defaultValue": {
-              "0": [
-                {
-                  "dice": 4,
-                  "value": 0,
-                  "stolen": false
-                },
-                {
-                  "dice": 6,
-                  "value": 0,
-                  "stolen": false
-                },
-                {
-                  "dice": 8,
-                  "value": 0,
-                  "stolen": false
-                },
-                {
-                  "dice": 10,
-                  "value": 0,
-                  "stolen": false
-                },
-                {
-                  "dice": 12,
-                  "value": 0,
-                  "stolen": false
-                },
-                {
-                  "dice": 20,
-                  "value": 0,
-                  "stolen": false
-                }
-              ],
-              "1": [
-                {
-                  "dice": 4,
-                  "value": 0,
-                  "stolen": false
-                },
-                {
-                  "dice": 6,
-                  "value": 0,
-                  "stolen": false
-                },
-                {
-                  "dice": 8,
-                  "value": 0,
-                  "stolen": false
-                },
-                {
-                  "dice": 10,
-                  "value": 0,
-                  "stolen": false
-                },
-                {
-                  "dice": 12,
-                  "value": 0,
-                  "stolen": false
-                },
-                {
-                  "dice": 20,
-                  "value": 0,
-                  "stolen": false
-                }
-              ],
-              "totals": {
-                "0": 0,
-                "1": 0
-              },
-              "hasRolled": false
-            },
             "blueprint": {
               "type": "div",
               "props": {
@@ -193,6 +214,7 @@
                   "--gigs-red": "#d83938",
                   "--gigs-opacity": "0.3",
                   "--gigs-padding": "0.7vh 0",
+                  "--input-color-empty": "transparent",
                   "height": "10vh",
                   "width": "115vh",
                   "backdropFilter": "blur(20px)",
@@ -220,7 +242,7 @@
                       "children": [
                         {
                           "type": "loop",
-                          "iterable": "game.data.Gigs[(game.turn.orderPosition + 1) % 2]",
+                          "iterable": "game.data.OppGigs.dices",
                           "template": {
                             "type": "div",
                             "props": {
@@ -241,7 +263,7 @@
                                     "backgroundColor": "transparent",
                                     "background": "url(https://russeus.github.io/CyberpunkTCG-TCGA/Images/Blue/d{{item.dice}}.png) center / contain no-repeat",
                                     "textAlign": "center",
-                                    "color": "{{item.value > 0 && !item.stolen ? 'var(--gigs-blue)' : 'transparent'}}",
+                                    "--input-color": "{{item.stolen ? 'transparent' : 'var(--gigs-blue)'}}",
                                     "opacity": "{{item.stolen ? 'var(--gigs-opacity)' : '1'}}",
                                     "fontSize": "var(--gigs-font-size)",
                                     "fontWeight": "var(--gigs-font-weight)",
@@ -252,13 +274,14 @@
                               {
                                 "type": "button",
                                 "props": {
-                                  "className": "hovered-reveal position-absolute top-0 start-50",
+                                  "className": "hovered-reveal position-absolute top-100 start-50",
                                   "style": {
-                                    "translate": "-50% -90%"
+                                    "translate": "-50% -10%",
+                                    "zIndex": 1
                                   }
                                 },
                                 "children": "Steal",
-                                "onClick": "game.data.Gigs[(game.turn.orderPosition + 1) % 2][index].stolen = true"
+                                "onClick": "game.data.OppGigs.dices[index].stolen = true"
                               }
                             ]
                           }
@@ -276,7 +299,7 @@
                       "children": [
                         {
                           "type": "loop",
-                          "iterable": "game.data.Gigs[game.turn.orderPosition]",
+                          "iterable": "game.data.MyGigs.dices",
                           "template": {
                             "type": "div",
                             "props": {
@@ -297,7 +320,7 @@
                                     "backgroundColor": "transparent",
                                     "background": "url(https://russeus.github.io/CyberpunkTCG-TCGA/Images/Red/d{{item.dice}}.png) center / contain no-repeat",
                                     "textAlign": "center",
-                                    "color": "{{item.value > 0 && item.stolen ? 'var(--gigs-red)' : 'transparent'}}",
+                                    "--input-color": "{{item.stolen ? 'var(--gigs-red)' : 'transparent'}}",
                                     "opacity": "{{item.stolen ? '1' : 'var(--gigs-opacity)'}}",
                                     "fontSize": "var(--gigs-font-size)",
                                     "fontWeight": "var(--gigs-font-weight)",
@@ -308,13 +331,14 @@
                               {
                                 "type": "button",
                                 "props": {
-                                  "className": "hovered-reveal position-absolute top-0 start-50",
+                                  "className": "hovered-reveal position-absolute top-100 start-50",
                                   "style": {
-                                    "translate": "-50% -90%"
+                                    "translate": "-50% -10%",
+                                    "zIndex": 1
                                   }
                                 },
                                 "children": "Steal",
-                                "onClick": "game.data.Gigs[game.turn.orderPosition][index].stolen = false"
+                                "onClick": "game.data.MyGigs.dices[index].stolen = false"
                               }
                             ]
                           }
@@ -332,7 +356,7 @@
                           "width": "var(--gigs-width)"
                         }
                       },
-                      "children": "{{game.data.Gigs.totals[(game.turn.orderPosition + 1) % 2]}}"
+                      "children": "{{game.data.Totals.opp}}"
                     }
                   ]
                 },
@@ -353,7 +377,7 @@
                       "children": [
                         {
                           "type": "loop",
-                          "iterable": "game.data.Gigs[(game.turn.orderPosition + 1) % 2]",
+                          "iterable": "game.data.OppGigs.dices",
                           "template": {
                             "type": "div",
                             "props": {
@@ -373,25 +397,25 @@
                                     "backgroundColor": "transparent",
                                     "background": "url(https://russeus.github.io/CyberpunkTCG-TCGA/Images/Red/d{{item.dice}}.png) center / contain no-repeat",
                                     "textAlign": "center",
-                                    "color": "{{item.value > 0 && item.stolen ? 'var(--gigs-red)' : 'transparent'}}",
+                                    "--input-color": "{{item.stolen ? 'var(--gigs-red)' : 'transparent'}}",
                                     "opacity": "{{item.stolen ? '1' : 'var(--gigs-opacity)'}}",
                                     "fontSize": "var(--gigs-font-size)",
                                     "fontWeight": "var(--gigs-font-weight)",
                                     "padding": "var(--gigs-padding)"
                                   }
                                 },
-                                "onChange": "game.data.Gigs[(game.turn.orderPosition + 1) % 2][index].value = delta"
+                                "onChange": "game.data.OppGigs.dices[index].value = delta; chatLog('changed dice to ' + game.data.OppGigs.dices[index].value + `/` + item.dice)"
                               },
                               {
                                 "type": "button",
                                 "props": {
-                                  "className": "hovered-reveal position-absolute top-100 start-50",
+                                  "className": "hovered-reveal position-absolute top-0 start-50",
                                   "style": {
-                                    "translate": "-50% -10%"
+                                    "translate": "-50% -90%"
                                   }
                                 },
                                 "children": "Roll",
-                                "onClick": "game.data.Gigs[(game.turn.orderPosition + 1) % 2][index].value = Math.floor(Math.random() * game.data.Gigs[(game.turn.orderPosition + 1) % 2][index].dice) + 1; game.data.Gigs.hasRolled = true"
+                                "onClick": "game.data.OppGigs.dices[index].value = Math.floor(Math.random() * game.data.OppGigs.dices[index].dice) + 1; game.data.MyGigs.hasRolled = true; chatLog(`rolled ` + game.data.OppGigs.dices[index].value + '/' + game.data.OppGigs.dices[index].dice)"
                               }
                             ]
                           }
@@ -409,7 +433,7 @@
                           "props": {
                             "className": "box-container position-absolute start-50 top-50 translate-middle text-nowrap m-0",
                             "style": {
-                              "opacity": "{{game.turn.isMyTurn && !game.data.Gigs.hasRolled ? 1 : 0}}"
+                              "opacity": "{{game.turn.isMyTurn && !game.data.MyGigs.hasRolled ? 1 : 0}}"
                             }
                           },
                           "children": "Don't forget to roll!"
@@ -427,7 +451,7 @@
                       "children": [
                         {
                           "type": "loop",
-                          "iterable": "game.data.Gigs[game.turn.orderPosition]",
+                          "iterable": "game.data.MyGigs.dices",
                           "template": {
                             "type": "div",
                             "props": {
@@ -447,25 +471,25 @@
                                     "backgroundColor": "transparent",
                                     "background": "url(https://russeus.github.io/CyberpunkTCG-TCGA/Images/Blue/d{{item.dice}}.png) center / contain no-repeat",
                                     "textAlign": "center",
-                                    "color": "{{item.value > 0 && !item.stolen ? 'var(--gigs-blue)' : 'transparent'}}",
+                                    "--input-color": "{{item.stolen ? 'transparent' : 'var(--gigs-blue)'}}",
                                     "opacity": "{{item.stolen ? 'var(--gigs-opacity)' : '1'}}",
                                     "fontSize": "var(--gigs-font-size)",
                                     "fontWeight": "var(--gigs-font-weight)",
                                     "padding": "var(--gigs-padding)"
                                   }
                                 },
-                                "onChange": "game.data.Gigs[game.turn.orderPosition][index].value = delta"
+                                "onChange": "game.data.MyGigs.dices[index].value = delta; chatLog('changed dice to ' + game.data.MyGigs.dices[index].value + `/` + item.dice)"
                               },
                               {
                                 "type": "button",
                                 "props": {
-                                  "className": "hovered-reveal position-absolute top-100 start-50",
+                                  "className": "hovered-reveal position-absolute top-0 start-50",
                                   "style": {
-                                    "translate": "-50% -10%"
+                                    "translate": "-50% -90%"
                                   }
                                 },
                                 "children": "Roll",
-                                "onClick": "game.data.Gigs[game.turn.orderPosition][index].value = Math.floor(Math.random() * game.data.Gigs[game.turn.orderPosition][index].dice) + 1; game.data.Gigs.hasRolled = true; chatLog(`Rolled ` + game.data.Gigs[game.turn.orderPosition][index].value)"
+                                "onClick": "game.data.MyGigs.dices[index].value = Math.floor(Math.random() * game.data.MyGigs.dices[index].dice) + 1; game.data.MyGigs.hasRolled = true; chatLog(`rolled ` + game.data.MyGigs.dices[index].value + '/' + game.data.OppGigs.dices[index].dice)"
                               }
                             ]
                           }
@@ -483,16 +507,11 @@
                           "width": "var(--gigs-width)"
                         }
                       },
-                      "children": "{{game.data.Gigs.totals[game.turn.orderPosition]}}"
+                      "children": "{{game.data.Totals.my}}"
                     }
                   ]
                 }
               ]
-            },
-            "events": {
-              "onUpdate": "let t=[0,0]; [0,1].forEach(i=>{ (game.data.Gigs[i]||[]).forEach(item=>{ t[item.stolen?1-i:i]+=(Number(item.value)||0); }); }); game.data.Gigs.totals=t;",
-              "onOpponentUpdate": "const gigs=game.data.Gigs; const oppGigs=opponentGame.data.Gigs; const clean=obj=>JSON.stringify(obj,(k,v)=>k==='_refresh'?undefined:v); [0,1].forEach(i=>{ if(clean(gigs[i])!==clean(oppGigs[i])){ gigs[i]=oppGigs[i]; } });",
-              "onNewTurn": "game.data.Gigs.hasRolled = false"
             }
           }
         }
