@@ -37,10 +37,16 @@
     "Classic": {
       "mulligan": {
         "info": "If you want, you can shuffle your hand back into your deck and draw 6 new cards, but only once.",
-        "startingHandSize": "6",
-        "drawNewHand": true,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
+        "startingHandSize": 6,
+        "mulliganCount": {
+          "max": 1
+        },
+        "mulliganCycle": {
+          "selectionRange": {
+            "min": 6
+          },
+          "steps": ["toTop", "shuffle", "draw"]
+        }
       },
       "newTurn": {
         "drawOnStart": false,
@@ -404,7 +410,7 @@
                                     "padding": "var(--gigs-padding)"
                                   }
                                 },
-                                "onChange": "game.data.OppGigs.dices[index].value = delta; chatLog('changed dice to ' + game.data.OppGigs.dices[index].value + `/` + item.dice)"
+                                "onChange": "game.data.OppGigs.dices[index].value = value; chatLog('changed dice to ' + value + `/` + item.dice)"
                               },
                               {
                                 "type": "button",
@@ -478,7 +484,7 @@
                                     "padding": "var(--gigs-padding)"
                                   }
                                 },
-                                "onChange": "game.data.MyGigs.dices[index].value = delta; chatLog('changed dice to ' + game.data.MyGigs.dices[index].value + `/` + item.dice)"
+                                "onChange": "game.data.MyGigs.dices[index].value = value; chatLog('changed dice to ' + value + `/` + item.dice)"
                               },
                               {
                                 "type": "button",
