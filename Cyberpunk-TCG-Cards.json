@@ -96,6 +96,40 @@
     "cost": 5,
     "RAM Color": "🟨 Yellow"
   },
+  "ms01-wnca-45": {
+    "id": "ms01-wnca-45",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Gilded Matón",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://exburst.dev/cyberpunk/cards/hd/b045.webp?v=d5e68589a8264444",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gilded Matón",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟨 Yellow"
+  },
+  "ms01-wnca-064": {
+    "id": "ms01-wnca-064",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Zetatech Faceplate",
+        "type": "Gear",
+        "cost": 2,
+        "image": "https://exburst.dev/cyberpunk/cards/hd/b064.webp?v=983d0f41d5226c5c",
+        "isHorizontal": false
+      }
+    },
+    "name": "Zetatech Faceplate",
+    "type": "Gear",
+    "cost": 2,
+    "RAM Color": "🟨 Yellow"
+  },
   "ms01-wnca-067": {
     "id": "ms01-wnca-067",
     "isToken": false,
@@ -231,6 +265,23 @@
     "type": "Program",
     "cost": 2,
     "RAM Color": "🟨 Yellow"
+  },
+  "ms01-wnca-118": {
+    "id": "ms01-wnca-118",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Maman Brigitte - Spirit of death",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://exburst.dev/cyberpunk/cards/hd/b118.webp?v=3e0cb14d1e903e05",
+        "isHorizontal": false
+      }
+    },
+    "name": "Maman Brigitte - Spirit of death",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟦 Blue"
   },
   "ms01-wnca-121": {
     "id": "ms01-wnca-121",
