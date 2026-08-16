@@ -59,6 +59,20 @@
       "countersStartingValues": [],
       "hideFacedDownCards": true,
       "sections": {
+        "sharedZone": {
+          "height": 0,
+          "layout": {
+            "direction": "row",
+            "content": [
+              {
+                "section": "Gigs",
+                "style": {
+                  "zIndex": 1
+                }
+              }
+            ]
+          }
+        },
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": false,
@@ -71,9 +85,6 @@
             },
             {
               "section": "Mana"
-            },
-            {
-              "section": "Gigs"
             }
           ]
         },
