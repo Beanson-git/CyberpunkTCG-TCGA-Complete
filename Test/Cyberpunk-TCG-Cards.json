@@ -4,16 +4,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Panam Palmer - Nomad Cavalry",
+        "name": "Panam Palmer — Nomad Cavalry",
         "type": "Legend",
-        "cost": 0,
-        "image": "https://cdn.imgchest.com/files/63e3cc809eae.png",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/6e4ee31b-82d1-421c-b658-ba3f79520365/render-mpvmowoc.webp",
         "isHorizontal": false
       }
     },
-    "name": "Panam Palmer - Nomad Cavalry",
+    "name": "Panam Palmer — Nomad Cavalry",
     "type": "Legend",
-    "cost": 0,
+    "cost": null,
     "RAM Color": "🟩 Green"
   },
   "ms01-wnca-042": {
@@ -23,29 +23,131 @@
       "front": {
         "name": "Riding Nomad",
         "type": "Unit",
-        "cost": 6,
-        "image": "https://cdn.imgchest.com/files/a36076e6a87d.png",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/1ee3ba07-86b0-4309-be55-4b4698f700b8/render-mpvlx7qq.webp",
         "isHorizontal": false
       }
     },
     "name": "Riding Nomad",
     "type": "Unit",
-    "cost": 6,
+    "cost": 5,
     "RAM Color": "🟩 Green"
+  },
+  "ms01-wnca-016": {
+    "id": "ms01-wnca-016",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Royce — Don't Call Me Simon",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/b749ce16-1b44-47d8-bce4-4fd373007a5c/render-mpvm2yf1.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Royce — Don't Call Me Simon",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟥 Red"
+  },
+  "ms01-wnca-019": {
+    "id": "ms01-wnca-019",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "El Sombrerón — La Venganza Lenta",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/94180516-28a6-4f5c-b79e-de38a95ed47b/render-mpvm6o5y.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "El Sombrerón — La Venganza Lenta",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟥 Red"
+  },
+  "ms01-wnca-030": {
+    "id": "ms01-wnca-030",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Carnage at the Colosseum",
+        "type": "Program",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/36128749-4cb1-440d-b4de-4fd463cc2f5c/render-mpvmaxtd.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Carnage at the Colosseum",
+    "type": "Program",
+    "cost": 6,
+    "RAM Color": "🟥 Red"
+  },
+  "ms01-wnca-36": {
+    "id": "ms01-wnca-36",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Caliber — Totentanz's Top Dog",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/4b5dc479-0db1-46dd-859f-e7dc34d50f03/render-mpvm8ira.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Caliber — Totentanz's Top Dog",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟨 Yellow"
+  },
+  "ms01-wnca-45": {
+    "id": "ms01-wnca-45",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Gilded Matón",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/846b55b4-5e12-44b6-a204-53bd8c862888/render-mpvluwwg.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gilded Matón",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟨 Yellow"
+  },
+  "ms01-wnca-064": {
+    "id": "ms01-wnca-064",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Zetatech Faceplate",
+        "type": "Gear",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/79cdc9a5-d94d-4df4-9f88-aa02fb0357b3/render-mpvn0qb5.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Zetatech Faceplate",
+    "type": "Gear",
+    "cost": 2,
+    "RAM Color": "🟨 Yellow"
   },
   "ms01-wnca-067": {
     "id": "ms01-wnca-067",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Kerry Eurodyne - The Last Rockerboy",
+        "name": "Kerry Eurodyne — The Last Rockerboy",
         "type": "Unit",
         "cost": 4,
-        "image": "https://cdn.imgchest.com/files/5def701b5039.png",
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/c26c7db6-f540-4073-ab33-b09335631764/render-mpvm47z6.webp",
         "isHorizontal": false
       }
     },
-    "name": "Kerry Eurodyne - The Last Rockerboy",
+    "name": "Kerry Eurodyne — The Last Rockerboy",
     "type": "Unit",
     "cost": 4,
     "RAM Color": "🟥 Red"
@@ -55,17 +157,85 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Meredith Stout - Stone Cold Corpo",
+        "name": "Meredith Stout — Stone Cold Corpo",
         "type": "Unit",
         "cost": 4,
-        "image": "https://cdn.imgchest.com/files/1612b6ea8133.png",
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/5939771d-bdcc-4b42-aea4-376311189e93/render-mpvm79jg.webp",
         "isHorizontal": false
       }
     },
-    "name": "Meredith Stout - Stone Cold Corpo",
+    "name": "Meredith Stout — Stone Cold Corpo",
     "type": "Unit",
     "cost": 4,
     "RAM Color": "🟥 Red"
+  },
+  "ms01-wnca-073": {
+    "id": "ms01-wnca-073",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Placide — Voodoo Sentinel",
+        "type": "Unit",
+        "cost": 8,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/81c55c1f-362e-4ffd-8f9b-4162b298dbd5/render-mpvm972b.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Placide — Voodoo Sentinel",
+    "type": "Unit",
+    "cost": 8,
+    "RAM Color": "🟦 Blue"
+  },
+  "ms01-wnca-088": {
+    "id": "ms01-wnca-088",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sandayu Oda — Hanako's Guardian",
+        "type": "Unit",
+        "cost": 7,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/f452a0ca-3204-48d5-8565-ec746f27959b/render-mpvm8d1y.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sandayu Oda — Hanako's Guardian",
+    "type": "Unit",
+    "cost": 7,
+    "RAM Color": "🟩 Green"
+  },
+  "ms01-wnca-101": {
+    "id": "ms01-wnca-101",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Peace Offering",
+        "type": "Program",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/8570122a-52aa-4a6b-8d72-4c8848df0f9b/render-mpvmc6bc.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Peace Offering",
+    "type": "Program",
+    "cost": 1,
+    "RAM Color": "🟩 Green"
+  },
+  "ms01-wnca-102": {
+    "id": "ms01-wnca-102",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Cyberpsychosis",
+        "type": "Program",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/5aafe80b-7c7d-4060-8677-a2881a21dd72/render-mpvmhimy.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cyberpsychosis",
+    "type": "Program",
+    "cost": 3,
+    "RAM Color": "🟨 Yellow"
   },
   "ms01-wnca-111": {
     "id": "ms01-wnca-111",
@@ -75,7 +245,7 @@
         "name": "Gorilla Arms",
         "type": "Gear",
         "cost": 4,
-        "image": "https://cdn.imgchest.com/files/476082a11a6b.png",
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/e1959b9e-d32d-43be-94c3-a595809e0c28/render-mpvmy1s4.webp",
         "isHorizontal": false
       }
     },
@@ -91,31 +261,48 @@
       "front": {
         "name": "Afterparty at Lizzie's",
         "type": "Program",
-        "cost": 2,
-        "image": "https://cdn.imgchest.com/files/d06d18189fbc.png",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/d53925ee-df55-4b71-8ca0-13ec3ede2076/render-mpvma8vc.webp",
         "isHorizontal": false
       }
     },
-    "name": "Afterparty at Lizzy's",
+    "name": "Afterparty at Lizzie's",
     "type": "Program",
-    "cost": 2,
+    "cost": 1,
     "RAM Color": "🟨 Yellow"
+  },
+  "ms01-wnca-118": {
+    "id": "ms01-wnca-118",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Maman Brigitte — Spirit of Death",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/8a7131eb-e1dd-46d6-84f6-2de315aee975/render-mpvm66w6.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Maman Brigitte — Spirit of Death",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟦 Blue"
   },
   "ms01-wnca-121": {
     "id": "ms01-wnca-121",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Alt Cunningham - Soulkiller Architect",
+        "name": "Alt Cunningham — Soulkiller Architect",
         "type": "Legend",
-        "cost": 6,
-        "image": "https://cdn.imgchest.com/files/910b0945c1e4.png",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/cb23a651-dd1d-48f8-aca3-8d33fef79fdd/render-mpvmnn4t.webp",
         "isHorizontal": false
       }
     },
-    "name": "Alt Cunningham - Soulkiller Architect",
+    "name": "Alt Cunningham — Soulkiller Architect",
     "type": "Legend",
-    "cost": 6,
+    "cost": null,
     "RAM Color": "🟦 Blue"
   },
   "ms01-wnca-122": {
@@ -123,16 +310,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Evelyn Parker - Beautiful Enigma",
+        "name": "Evelyn Parker — Beautiful Enigma",
         "type": "Legend",
-        "cost": 0,
-        "image": "https://cdn.imgchest.com/files/175a78832d18.png",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/ba766c1d-d929-4a22-bc91-7400784536c8/render-mpvmo7cq.webp",
         "isHorizontal": false
       }
     },
-    "name": "Evelyn Parker - Beautiful Enigma",
+    "name": "Evelyn Parker — Beautiful Enigma",
     "type": "Legend",
-    "cost": 0,
+    "cost": null,
     "RAM Color": "🟦 Blue"
   },
   "ms01-wnca-125": {
@@ -140,16 +327,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Goro Takemura - Vengeful Bodyguard",
+        "name": "Goro Takemura — Vengeful Bodyguard",
         "type": "Legend",
-        "cost": 0,
-        "image": "https://cdn.imgchest.com/files/e9ef130b7d3d.png",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/0f6e52f0-511f-4ae9-a380-5e718b26e58a/render-mpvmmf2e.webp",
         "isHorizontal": false
       }
     },
-    "name": "Goro Takemura - Vengeful Bodyguard",
+    "name": "Goro Takemura — Vengeful Bodyguard",
     "type": "Legend",
-    "cost": 0,
+    "cost": null,
     "RAM Color": "🟩 Green"
   },
   "ms01-wnca-126": {
@@ -157,16 +344,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Hanako Arasaka - In a Gilded Cage",
+        "name": "Hanako Arasaka — In a Gilded Cage",
         "type": "Unit",
-        "cost": 3,
-        "image": "https://cdn.imgchest.com/files/0fcbda619f01.png",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/7386d22f-1065-4043-a6c4-9cee6256fe8a/render-mpvm7wvo.webp",
         "isHorizontal": false
       }
     },
-    "name": "Hanako Arasaka - In a Gilded Cage",
+    "name": "Hanako Arasaka — In a Gilded Cage",
     "type": "Unit",
-    "cost": 3,
+    "cost": 4,
     "RAM Color": "🟨 Yellow"
   },
   "ms01-wnca-131": {
@@ -174,14 +361,14 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Royce - Psycho on the Edge",
+        "name": "Royce — Psycho on the Edge",
         "type": "Legend",
         "cost": 6,
-        "image": "https://cdn.imgchest.com/files/05969e2b3287.png",
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/3e2e228b-dbfb-484b-b82d-6972ff184aab/render-mpvml5uz.webp",
         "isHorizontal": false
       }
     },
-    "name": "Royce - Psycho on the Edge",
+    "name": "Royce — Psycho on the Edge",
     "type": "Legend",
     "cost": 6,
     "RAM Color": "🟥 Red"
@@ -191,16 +378,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "V - Streetkid",
+        "name": "V — Streetkid",
         "type": "Legend",
-        "cost": 4,
-        "image": "https://cdn.imgchest.com/files/0c3508bf994b.png",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/3fc63c58-5954-4744-a5af-047bfc5cb159/render-mq9zzfnq.webp",
         "isHorizontal": false
       }
     },
-    "name": "V - Streetkid",
+    "name": "V — Streetkid",
     "type": "Legend",
-    "cost": 4,
+    "cost": 5,
     "RAM Color": "🟥 Red"
   },
   "ms01-wnca-132": {
@@ -225,16 +412,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Dum Dum - Maelstrom Triggerman",
+        "name": "Dum Dum — Maelstrom Triggerman",
         "type": "Legend",
-        "cost": 0,
-        "image": "https://cdn.imgchest.com/files/521e3d226ea9.png",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/aaac486c-dbfd-4137-b373-24a2df29522c/render-mpvmkj5v.webp",
         "isHorizontal": false
       }
     },
-    "name": "Dum Dum - Maelstrom Triggerman",
+    "name": "Dum Dum — Maelstrom Triggerman",
     "type": "Legend",
-    "cost": 0,
+    "cost": null,
     "RAM Color": "🟨 Yellow"
   },
   "ms01-wnca-135": {
@@ -242,16 +429,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "River Wards - Detective on the Hunt",
+        "name": "River Ward — Detective on the Hunt",
         "type": "Legend",
-        "cost": 0,
-        "image": "https://cdn.imgchest.com/files/1e6ebd5cec78.png",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/b3895f75-e147-49b0-a6d8-6fb35b356b2e/render-mpvmn1j1.webp",
         "isHorizontal": false
       }
     },
-    "name": "River Wards - Detective on the Hunt",
+    "name": "River Ward — Detective on the Hunt",
     "type": "Legend",
-    "cost": 0,
+    "cost": null,
     "RAM Color": "🟨 Yellow"
   },
   "ms01-wnca-137": {
@@ -259,14 +446,14 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Adam Smasher - Metal Over Meat",
+        "name": "Adam Smasher — Metal Over Meat",
         "type": "Unit",
         "cost": 9,
-        "image": "https://cdn.imgchest.com/files/2fa4d0e7d6fb.png",
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/d23e322f-ad60-431d-b33e-1e8a813248ff/render-mpvlmm1k.webp",
         "isHorizontal": false
       }
     },
-    "name": "Adam Smasher - Metal Over Meat",
+    "name": "Adam Smasher — Metal Over Meat",
     "type": "Unit",
     "cost": 9,
     "RAM Color": "🟨 Yellow"
@@ -397,14 +584,14 @@
       "front": {
         "name": "Ruthless Lowlife",
         "type": "Unit",
-        "cost": "2",
-        "image": "https://i.postimg.cc/Phx3CdGN/a008.webp",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/e1b674d0-4ac7-4523-be19-809308871d49/render-mpvls72n.webp",
         "isHorizontal": false
       }
     },
     "name": "Ruthless Lowlife",
     "type": "Unit",
-    "cost": "2",
+    "cost": 2,
     "RAM Color": "🟥 Red"
   },
   "a009": {
@@ -414,14 +601,14 @@
       "front": {
         "name": "Swordwise Huscle",
         "type": "Unit",
-        "cost": "3",
-        "image": "https://i.postimg.cc/b8JCZqXD/a009.webp",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/1c053198-187e-49ab-a9e0-0661b4c3b337/render-mpvlt1ju.webp",
         "isHorizontal": false
       }
     },
     "name": "Swordwise Huscle",
     "type": "Unit",
-    "cost": "3",
+    "cost": 3,
     "RAM Color": "🟥 Red"
   },
   "a010": {
@@ -431,14 +618,14 @@
       "front": {
         "name": "Delamain Cab",
         "type": "Unit",
-        "cost": "4",
-        "image": "https://i.postimg.cc/CY1PRwy8/a010.webp",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/5b9cdefa-29f4-4a3a-a426-eea46302ef60/render-mpvlvlr9.webp",
         "isHorizontal": false
       }
     },
     "name": "Delamain Cab",
     "type": "Unit",
-    "cost": "4",
+    "cost": 4,
     "RAM Color": "🟦 Blue"
   },
   "a011": {
@@ -446,16 +633,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Evelyn Parker - Scheming Siren",
+        "name": "Evelyn Parker — Scheming Siren",
         "type": "Unit",
-        "cost": "2",
-        "image": "https://i.postimg.cc/Yk9nvtcg/a011.webp",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/7d174619-2183-4058-a89a-082c6b7b5a5c/render-mpvm5enr.webp",
         "isHorizontal": false
       }
     },
-    "name": "Evelyn Parker - Scheming Siren",
+    "name": "Evelyn Parker — Scheming Siren",
     "type": "Unit",
-    "cost": "2",
+    "cost": 2,
     "RAM Color": "🟦 Blue"
   },
   "a012": {
@@ -480,16 +667,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Jackie Welles - Ride or Die Choom",
+        "name": "Jackie Welles — Ride or Die Choom",
         "type": "Unit",
-        "cost": "6",
-        "image": "https://i.postimg.cc/yBdQD7qT/a013.webp",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/12d44604-ad7b-4e82-b517-9edb0be44427/render-mpvlnb2e.webp",
         "isHorizontal": false
       }
     },
-    "name": "Jackie Welles - Ride or Die Choom",
+    "name": "Jackie Welles — Ride or Die Choom",
     "type": "Unit",
-    "cost": "6",
+    "cost": 6,
     "RAM Color": "🟨 Yellow"
   },
   "a014": {
@@ -499,14 +686,14 @@
       "front": {
         "name": "Secondhand Bombus",
         "type": "Unit",
-        "cost": "2",
-        "image": "https://i.postimg.cc/k94127rw/a014.webp",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/fcbb6d58-6666-4bd3-8ff0-64930fb0f422/render-mpvlyg97.webp",
         "isHorizontal": false
       }
     },
     "name": "Secondhand Bombus",
     "type": "Unit",
-    "cost": "2",
+    "cost": 2,
     "RAM Color": "🟨 Yellow"
   },
   "a015": {
@@ -514,16 +701,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "T-Bug - Amateur Philosopher",
+        "name": "T-Bug — Amateur Philosopher",
         "type": "Unit",
-        "cost": "3",
-        "image": "https://i.postimg.cc/Qst4FjLf/a015.webp",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/e2e3d98d-0159-4a79-b543-e37264f23118/render-mpvm3mjo.webp",
         "isHorizontal": false
       }
     },
-    "name": "T-Bug - Amateur Philosopher",
+    "name": "T-Bug — Amateur Philosopher",
     "type": "Unit",
-    "cost": "3",
+    "cost": 4,
     "RAM Color": "🟨 Yellow"
   },
   "a016": {
@@ -533,14 +720,14 @@
       "front": {
         "name": "Corpo Security",
         "type": "Unit",
-        "cost": "2",
-        "image": "https://i.postimg.cc/KFzq1mX9/a016.webp",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/80dcc139-d31d-4b89-86ff-cdbdd2664953/render-mpvlxrn4.webp",
         "isHorizontal": false
       }
     },
     "name": "Corpo Security",
     "type": "Unit",
-    "cost": "2",
+    "cost": 2,
     "RAM Color": "🟩 Green"
   },
   "a017": {
@@ -550,14 +737,14 @@
       "front": {
         "name": "Emergency Atlus",
         "type": "Unit",
-        "cost": "4",
-        "image": "https://i.postimg.cc/FmRWYhtC/a017.webp",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/9c18b6ae-765d-4244-8de4-e382c4767de1/render-mpvm10a4.webp",
         "isHorizontal": false
       }
     },
     "name": "Emergency Atlus",
     "type": "Unit",
-    "cost": "4",
+    "cost": 3,
     "RAM Color": "🟩 Green"
   },
   "a018": {
@@ -584,14 +771,14 @@
       "front": {
         "name": "Mantis Blades",
         "type": "Gear",
-        "cost": "1",
-        "image": "https://i.postimg.cc/8D5K7T80/a019.webp",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/7ffa8ba4-f187-4ba0-a719-fa8ebf45a03b/render-mpvmwraw.webp",
         "isHorizontal": false
       }
     },
     "name": "Mantis Blades",
     "type": "Gear",
-    "cost": "1",
+    "cost": 1,
     "RAM Color": "🟥 Red"
   },
   "a020": {
@@ -599,16 +786,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Satori - Sword of Saburo",
+        "name": "Satori — Sword of Saburo",
         "type": "Gear",
-        "cost": "2",
-        "image": "https://i.postimg.cc/0xBtmhxG/a020.webp",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/11a8fed4-5401-4cfc-901b-ab9b5b94d0ab/render-mpvmzfgs.webp",
         "isHorizontal": false
       }
     },
-    "name": "Satori - Sword of Saburo",
+    "name": "Satori — Sword of Saburo",
     "type": "Gear",
-    "cost": "2",
+    "cost": 2,
     "RAM Color": "🟥 Red"
   },
   "a021": {
@@ -618,14 +805,14 @@
       "front": {
         "name": "Industrial Assembly",
         "type": "Program",
-        "cost": "2",
-        "image": "https://i.postimg.cc/q05mnW0L/a021.webp",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/9103b5db-bf95-4385-8941-308cb0353c9a/render-mpvmeiyj.webp",
         "isHorizontal": false
       }
     },
     "name": "Industrial Assembly",
     "type": "Program",
-    "cost": "2",
+    "cost": 1,
     "RAM Color": "🟥 Red"
   },
   "a022": {
@@ -633,16 +820,16 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Dying Night - V's Pistol",
+        "name": "Dying Night — V's Pistol",
         "type": "Gear",
-        "cost": "2",
-        "image": "https://i.postimg.cc/MxFsRgx5/a022.webp",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/2b1b6268-193f-4b9e-a63c-0cbc200d6db7/render-mpvn0qos.webp",
         "isHorizontal": false
       }
     },
-    "name": "Dying Night - V's Pistol",
+    "name": "Dying Night — V's Pistol",
     "type": "Gear",
-    "cost": "2",
+    "cost": 2,
     "RAM Color": "🟦 Blue"
   },
   "a023": {
@@ -652,14 +839,14 @@
       "front": {
         "name": "Floor It",
         "type": "Program",
-        "cost": "3",
-        "image": "https://i.postimg.cc/vMNP9CMX/a023.webp",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/91f9d30c-f74d-4be4-8505-52f05d309c92/render-mpvmda4y.webp",
         "isHorizontal": false
       }
     },
     "name": "Floor It",
     "type": "Program",
-    "cost": "3",
+    "cost": 1,
     "RAM Color": "🟦 Blue"
   },
   "a024": {
@@ -669,14 +856,14 @@
       "front": {
         "name": "Sandevistan",
         "type": "Gear",
-        "cost": "3",
-        "image": "https://i.postimg.cc/LRbyfGRN/a024.webp",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/97de62e2-3fea-4324-8367-87d1f1d674ed/render-mpvmzerv.webp",
         "isHorizontal": false
       }
     },
     "name": "Sandevistan",
     "type": "Gear",
-    "cost": "3",
+    "cost": 3,
     "RAM Color": "🟩 Green"
   },
   "a025": {
@@ -686,14 +873,14 @@
       "front": {
         "name": "Corporate Surveillance",
         "type": "Program",
-        "cost": "2",
-        "image": "https://i.postimg.cc/jKF8NBK8/a025.webp",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/d3dc7194-a545-4588-9702-b094c27ce359/render-mpvmh0cv.webp",
         "isHorizontal": false
       }
     },
     "name": "Corporate Surveillance",
     "type": "Program",
-    "cost": "2",
+    "cost": 2,
     "RAM Color": "🟩 Green"
   },
   "a026": {
@@ -703,14 +890,14 @@
       "front": {
         "name": "Kiroshi Optics",
         "type": "Gear",
-        "cost": "1",
-        "image": "https://i.postimg.cc/LRbyfGRC/a026.webp",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/ec3368a9-79f1-4dfc-9cf7-1cb464ec1c88/render-mpvmw7q4.webp",
         "isHorizontal": false
       }
     },
     "name": "Kiroshi Optics",
     "type": "Gear",
-    "cost": "1",
+    "cost": 1,
     "RAM Color": "🟨 Yellow"
   },
   "a027": {
@@ -720,14 +907,14 @@
       "front": {
         "name": "Mandibular Upgrade",
         "type": "Gear",
-        "cost": "1",
-        "image": "https://i.postimg.cc/HHhS5FHP/a027.webp",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/219b7a29-0f8b-4750-bc46-0f39eec6721b/render-mpvmxewc.webp",
         "isHorizontal": false
       }
     },
     "name": "Mandibular Upgrade",
     "type": "Gear",
-    "cost": "1",
+    "cost": 1,
     "RAM Color": "🟨 Yellow"
   },
   "a028": {
@@ -737,15 +924,15 @@
       "front": {
         "name": "Reboot Optics",
         "type": "Program",
-        "cost": "2",
-        "image": "https://i.postimg.cc/X3z2Ft31/a028.webp",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/fb096d3f-48eb-47c0-a065-81b39691e12f/render-mpvme4x3.webp",
         "isHorizontal": false
       }
     },
     "name": "Reboot Optics",
     "type": "Program",
-    "cost": "2",
-    "RAM Color": "🟨 Yellow"
+    "cost": 2,
+    "RAM Color": "🟦 Blue"
   },
   "a029": {
     "id": "a029",
@@ -813,6 +1000,1621 @@
     "name": "Lucyna Kushinada - Fresh Beginnings",
     "type": "Legend",
     "cost": 0,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-adam-smasher-ender-of-legends": {
+    "id": "cb-adam-smasher-ender-of-legends",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Adam Smasher — Ender of Legends",
+        "type": "Legend",
+        "cost": 9,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/a9c1137e-2e33-4293-9dcc-9351c9a0bbee/render-mpvmot9g.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Adam Smasher — Ender of Legends",
+    "type": "Legend",
+    "cost": 9,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-dexter-deshawn-off-the-grid": {
+    "id": "cb-dexter-deshawn-off-the-grid",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Dexter DeShawn — Off the Grid",
+        "type": "Legend",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/9a298f42-3a9f-4510-b2fd-9cf1b34ade27/render-mpvml9cl.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dexter DeShawn — Off the Grid",
+    "type": "Legend",
+    "cost": null,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-johnny-silverhand-rocking-renegade": {
+    "id": "cb-johnny-silverhand-rocking-renegade",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Johnny Silverhand — Rocking Renegade",
+        "type": "Legend",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/a8a7d286-0c66-4f01-aca7-45570474d9e4/render-mpvmpqtq.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Johnny Silverhand — Rocking Renegade",
+    "type": "Legend",
+    "cost": null,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-6th-street-recruits": {
+    "id": "cb-6th-street-recruits",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "6th Street Recruits",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/756f3e53-9ff3-4c01-9f33-bb27a1cd5957/render-mpvlsra8.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "6th Street Recruits",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-animals-wrecker": {
+    "id": "cb-animals-wrecker",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Animals Wrecker",
+        "type": "Unit",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/7514dd38-6e2d-43dd-9715-6b3a32615382/render-mpvluas2.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Animals Wrecker",
+    "type": "Unit",
+    "cost": 6,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-chrome-fang": {
+    "id": "cb-chrome-fang",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Chrome Fang",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/40db55a6-0220-4cb9-8854-0e23f7cb91f8/render-mpvlsztq.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Chrome Fang",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-japantown-jonin": {
+    "id": "cb-japantown-jonin",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Japantown Jonin",
+        "type": "Unit",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/30619097-d9d7-42fe-bf4c-cd4ae822792d/render-mpvlsow6.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Japantown Jonin",
+    "type": "Unit",
+    "cost": 2,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-johnny-silverhand-never-stop-fighting": {
+    "id": "cb-johnny-silverhand-never-stop-fighting",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Johnny Silverhand — Never Stop Fighting",
+        "type": "Unit",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/14ab188f-2ce3-4790-8823-5a352371ff1f/render-mpvlmm24.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Johnny Silverhand — Never Stop Fighting",
+    "type": "Unit",
+    "cost": 6,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-la-llorona-ghost-of-the-past": {
+    "id": "cb-la-llorona-ghost-of-the-past",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "La Llorona — Ghost of the Past",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/e3d1d8a0-1d53-4c85-84ca-66439fd3639a/render-mpvm2yt3.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "La Llorona — Ghost of the Past",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-octant": {
+    "id": "cb-octant",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Octant",
+        "type": "Unit",
+        "cost": 7,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/089df0e6-0000-4e6c-b6d3-d9119466b624/render-mpvlto0j.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Octant",
+    "type": "Unit",
+    "cost": 7,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-screw-lovelorn-fool": {
+    "id": "cb-screw-lovelorn-fool",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Screw — Lovelorn Fool",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/a7117b0f-74ab-44b5-87fb-de267d0f2164/render-mpvltmxd.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Screw — Lovelorn Fool",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-v-roamer-of-the-badlands": {
+    "id": "cb-v-roamer-of-the-badlands",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "V — Roamer of the Badlands",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/c1747b7d-de5c-43eb-a4ed-b632f1861712/render-mpvlnxfx.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "V — Roamer of the Badlands",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-valentino-guerrera": {
+    "id": "cb-valentino-guerrera",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Valentino Guerrera",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/67b82386-5cb0-4ae7-b940-ac0d982b773c/render-mpvlrev5.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Valentino Guerrera",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-yorinobu-arasaka-steel-dragon": {
+    "id": "cb-yorinobu-arasaka-steel-dragon",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yorinobu Arasaka — Steel Dragon",
+        "type": "Unit",
+        "cost": 7,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/c057ccc4-bb15-4efd-8115-8d223568134b/render-mpvm6tkv.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Yorinobu Arasaka — Steel Dragon",
+    "type": "Unit",
+    "cost": 7,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-arasaka-emergency-radioport": {
+    "id": "cb-arasaka-emergency-radioport",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Arasaka Emergency Radioport",
+        "type": "Gear",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/d2da65d5-fdaf-44f4-a692-a5672d2c1cca/render-mpvmwsoe.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Arasaka Emergency Radioport",
+    "type": "Gear",
+    "cost": 2,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-deadman-transmitter": {
+    "id": "cb-deadman-transmitter",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Deadman Transmitter",
+        "type": "Gear",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/32957075-42ff-47e3-8252-e78877ef61f7/render-mpvmyrdi.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Deadman Transmitter",
+    "type": "Gear",
+    "cost": 3,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-all-is-lost": {
+    "id": "cb-all-is-lost",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "All is Lost",
+        "type": "Program",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/d1a3c0e0-e0e7-418d-afb4-e6e43400c42e/render-mpvmavkg.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "All is Lost",
+    "type": "Program",
+    "cost": 1,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-appetite-for-destruction": {
+    "id": "cb-appetite-for-destruction",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Appetite for Destruction",
+        "type": "Program",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/f274789d-69f2-4acf-a511-f728c67d1a13/render-mpvmf46g.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Appetite for Destruction",
+    "type": "Program",
+    "cost": 3,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-bonnie-and-clyde": {
+    "id": "cb-bonnie-and-clyde",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Bonnie and Clyde",
+        "type": "Program",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/26d60270-1b43-4af3-a8b7-1c3db9675cfa/render-mpvmfxjg.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bonnie and Clyde",
+    "type": "Program",
+    "cost": 3,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-detonate": {
+    "id": "cb-detonate",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Detonate",
+        "type": "Program",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/bec995b7-b76b-4605-9c36-3d7697cdd4f5/render-mpvmadw4.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Detonate",
+    "type": "Program",
+    "cost": 1,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-gunpoint-diplomacy": {
+    "id": "cb-gunpoint-diplomacy",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Gunpoint Diplomacy",
+        "type": "Program",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/efc5dfdd-f393-4bbe-a7bc-ac959ba1e6bc/render-mpvmergg.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gunpoint Diplomacy",
+    "type": "Program",
+    "cost": 4,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-over-the-edge": {
+    "id": "cb-over-the-edge",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Over the Edge",
+        "type": "Program",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/f1cf4133-45ef-4de5-abfc-757de1613731/render-mpvmc1b2.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Over the Edge",
+    "type": "Program",
+    "cost": 3,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-shattered-memories": {
+    "id": "cb-shattered-memories",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Shattered Memories",
+        "type": "Program",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/3401c7cf-45c5-4fe4-a883-284a9334262d/render-mpvmj7ok.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shattered Memories",
+    "type": "Program",
+    "cost": 4,
+    "RAM Color": "🟥 Red"
+  },
+  "cb-kerry-eurodyne-axe-attitude-audience": {
+    "id": "cb-kerry-eurodyne-axe-attitude-audience",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kerry Eurodyne — Axe, Attitude, Audience",
+        "type": "Legend",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/e54e06c0-3f9c-412a-8dea-942eebecd687/render-mpvmls9g.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Kerry Eurodyne — Axe, Attitude, Audience",
+    "type": "Legend",
+    "cost": null,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-muamar-reyes-el-capita-n": {
+    "id": "cb-muamar-reyes-el-capita-n",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Muamar Reyes — El Capitán",
+        "type": "Legend",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/dbbf4a6c-340d-4356-81ad-776940a7ee32/render-mpvmoclb.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Muamar Reyes — El Capitán",
+    "type": "Legend",
+    "cost": null,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-rogue-amendiares-preem-solo": {
+    "id": "cb-rogue-amendiares-preem-solo",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rogue Amendiares — Preem Solo",
+        "type": "Legend",
+        "cost": 7,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/2dd7547d-5098-4082-a98b-f39a583a222f/render-mpvmmwyz.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rogue Amendiares — Preem Solo",
+    "type": "Legend",
+    "cost": 7,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-alt-cunningham-mother-of-daemons": {
+    "id": "cb-alt-cunningham-mother-of-daemons",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Alt Cunningham — Mother of Daemons",
+        "type": "Unit",
+        "cost": 7,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/e782dd02-a136-4bf8-b04b-328c65b84f19/render-mpvm7csv.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Alt Cunningham — Mother of Daemons",
+    "type": "Unit",
+    "cost": 7,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-augmented-negotiators": {
+    "id": "cb-augmented-negotiators",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Augmented Negotiators",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/a195323a-e29e-4c05-8e6c-7f1638c8264c/render-mpvm290s.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Augmented Negotiators",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-heywood-ripperdoc": {
+    "id": "cb-heywood-ripperdoc",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Heywood Ripperdoc",
+        "type": "Unit",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/2fc5ac93-dae5-4af5-a813-77abc0cc8dfd/render-mpvm5kl0.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Heywood Ripperdoc",
+    "type": "Unit",
+    "cost": 6,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-maelstrom-goons": {
+    "id": "cb-maelstrom-goons",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Maelstrom Goons",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/e14bdd12-1214-4104-bfdd-ae023c21527c/render-mpvls0aa.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Maelstrom Goons",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-maxtac-suppression-team": {
+    "id": "cb-maxtac-suppression-team",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "MaxTac Suppression Team",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/47f55164-e5da-494e-9d55-02bd0b7f97c1/render-mpvlzqaa.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "MaxTac Suppression Team",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-offduty-malfini": {
+    "id": "cb-offduty-malfini",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Offduty Malfini",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/fbefb447-34a3-4d53-9b23-d1bf141f8eec/render-mpvlua50.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Offduty Malfini",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-rockn-rockerboy": {
+    "id": "cb-rockn-rockerboy",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rockn' Rockerboy",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/07aaea5c-5aef-466e-956a-2e68930669c0/render-mpvlx5hw.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rockn' Rockerboy",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-sketchy-ripper": {
+    "id": "cb-sketchy-ripper",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sketchy Ripper",
+        "type": "Unit",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/12f0398c-bcc3-4944-af72-ac2ae9f36761/render-mpvm0clc.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sketchy Ripper",
+    "type": "Unit",
+    "cost": 2,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-trauma-team-operatives": {
+    "id": "cb-trauma-team-operatives",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Trauma Team Operatives",
+        "type": "Unit",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/0d6c1f36-628b-4631-a96d-2000f6fb054e/render-mpvlz2to.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Trauma Team Operatives",
+    "type": "Unit",
+    "cost": 6,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-viktor-vektor-drop-your-illusions": {
+    "id": "cb-viktor-vektor-drop-your-illusions",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Viktor Vektor — Drop Your Illusions",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/2285cd3a-7010-4ba4-b23a-ba40aba296f9/render-mpvlny5c.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Viktor Vektor — Drop Your Illusions",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-viktor-vektor-you-might-feel-a-little-pinch": {
+    "id": "cb-viktor-vektor-you-might-feel-a-little-pinch",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Viktor Vektor — You Might Feel a Little Pinch",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/4eca7fcd-85c1-43d0-8a07-4227312ab0db/render-mpvm2a9i.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Viktor Vektor — You Might Feel a Little Pinch",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-adrenaline-converter": {
+    "id": "cb-adrenaline-converter",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Adrenaline Converter",
+        "type": "Gear",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/535df2a9-d2af-463c-85dd-dafe67cab8fb/render-mpvmy2t7.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Adrenaline Converter",
+    "type": "Gear",
+    "cost": 2,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-the-relic-experimental-biochip": {
+    "id": "cb-the-relic-experimental-biochip",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "The Relic — Experimental Biochip",
+        "type": "Gear",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/38d14168-c182-4a34-a3b2-1b8380ab6635/render-mpvn1f8f.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Relic — Experimental Biochip",
+    "type": "Gear",
+    "cost": 5,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-bootleg-black-sapphire-show": {
+    "id": "cb-bootleg-black-sapphire-show",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Bootleg Black Sapphire Show",
+        "type": "Program",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/decc76ed-f5ed-4f02-90d7-e01e2a3975e0/render-mpvmh4na.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bootleg Black Sapphire Show",
+    "type": "Program",
+    "cost": 5,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-live-with-the-aftermath": {
+    "id": "cb-live-with-the-aftermath",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Live with the Aftermath",
+        "type": "Program",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/f931c82e-a382-4f60-808c-5910ac9850be/render-mpvmctmr.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Live with the Aftermath",
+    "type": "Program",
+    "cost": 3,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-safety-override": {
+    "id": "cb-safety-override",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Safety Override",
+        "type": "Program",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/5d987aa8-baed-45b2-986c-a21e04a53331/render-mpvm9rqp.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Safety Override",
+    "type": "Program",
+    "cost": 2,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-the-heist": {
+    "id": "cb-the-heist",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "The Heist",
+        "type": "Program",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/a1e2c25e-fb27-458f-984d-df422f879664/render-mpvmgkup.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Heist",
+    "type": "Program",
+    "cost": 2,
+    "RAM Color": "🟨 Yellow"
+  },
+  "cb-hanako-arasaka-daughter-of-the-emperor": {
+    "id": "cb-hanako-arasaka-daughter-of-the-emperor",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Hanako Arasaka — Daughter of the Emperor",
+        "type": "Legend",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/2c4a77e8-0fda-4ec1-9519-1d15e0f172b3/render-mpvmk5xh.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hanako Arasaka — Daughter of the Emperor",
+    "type": "Legend",
+    "cost": null,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-jackie-welles-mama-s-favorite": {
+    "id": "cb-jackie-welles-mama-s-favorite",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Jackie Welles — Mama's Favorite",
+        "type": "Legend",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/9f61ebda-53fd-4b23-8383-d0e0bd32b847/render-mpvmloq3.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Jackie Welles — Mama's Favorite",
+    "type": "Legend",
+    "cost": 6,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-padre-man-of-the-cross": {
+    "id": "cb-padre-man-of-the-cross",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Padre — Man of the Cross",
+        "type": "Legend",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/c7f0583f-2493-4e1f-9967-977bc0c6fa15/render-mpvmm9qu.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Padre — Man of the Cross",
+    "type": "Legend",
+    "cost": null,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-field-operator": {
+    "id": "cb-field-operator",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Field Operator",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/876dfa5c-6df4-4930-b284-f2c466e6b90c/render-mpvlzp1w.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Field Operator",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-maelstrom-zealots": {
+    "id": "cb-maelstrom-zealots",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Maelstrom Zealots",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/43e5568f-a609-4eff-8502-e81ba9134d2c/render-mpvm0z4g.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Maelstrom Zealots",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-maxtac-av": {
+    "id": "cb-maxtac-av",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "MaxTac AV",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/f1fa787d-e936-42a8-b42f-14999e722793/render-mpvlwk00.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "MaxTac AV",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-maxtac-heavy": {
+    "id": "cb-maxtac-heavy",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "MaxTac Heavy",
+        "type": "Unit",
+        "cost": 7,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/060f0c56-cbb7-45fd-a0cd-9c7b9d0f8103/render-mpvm3liw.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "MaxTac Heavy",
+    "type": "Unit",
+    "cost": 7,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-maxtac-squadron": {
+    "id": "cb-maxtac-squadron",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "MaxTac Squadron",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/22b276f4-7cf6-4b14-a220-8368a0839287/render-mpvm0dqx.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "MaxTac Squadron",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-nadia-fighting-through-grief": {
+    "id": "cb-nadia-fighting-through-grief",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Nadia — Fighting Through Grief",
+        "type": "Unit",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/4bab255b-763a-4762-b5e2-430316526b8a/render-mpvm4t8i.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Nadia — Fighting Through Grief",
+    "type": "Unit",
+    "cost": 6,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-pacifica-netrunner": {
+    "id": "cb-pacifica-netrunner",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Pacifica Netrunner",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/b43f5006-7388-4189-81ff-343b5428305b/render-mpvlxt79.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pacifica Netrunner",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-panam-palmer-strength-through-family": {
+    "id": "cb-panam-palmer-strength-through-family",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Panam Palmer — Strength Through Family",
+        "type": "Unit",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/9231f9ff-1ba5-4c4f-bd78-70e0780b58e5/render-mpvlolip.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Panam Palmer — Strength Through Family",
+    "type": "Unit",
+    "cost": 6,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-pepe-najarro-working-doubles": {
+    "id": "cb-pepe-najarro-working-doubles",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Pepe Najarro — Working Doubles",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/0de81196-f1d3-4fd0-ae6a-062dae3f3f2c/render-mpvm610y.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pepe Najarro — Working Doubles",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-saul-bright-stormrider": {
+    "id": "cb-saul-bright-stormrider",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Saul Bright — Stormrider",
+        "type": "Unit",
+        "cost": 8,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/60e476b4-51ab-4b10-8861-a8362b4232d7/render-mpvm8zcp.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Saul Bright — Stormrider",
+    "type": "Unit",
+    "cost": 8,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-tyger-s-whisper": {
+    "id": "cb-tyger-s-whisper",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tyger's Whisper",
+        "type": "Unit",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/28267ce7-17dc-42c4-b8c4-4235a7f3c3df/render-mpvlyfk9.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tyger's Whisper",
+    "type": "Unit",
+    "cost": 2,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-valentino-street-racer": {
+    "id": "cb-valentino-street-racer",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Valentino Street Racer",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/dc15db71-3443-4de0-b988-c62601bae5e1/render-mpvlvw95.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Valentino Street Racer",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-wraith-marauders": {
+    "id": "cb-wraith-marauders",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Wraith Marauders",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/0944037e-5b14-4332-b345-7935924c2125/render-mpvm4vc3.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Wraith Marauders",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-overwatch-panam-s-gift": {
+    "id": "cb-overwatch-panam-s-gift",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Overwatch — Panam's Gift",
+        "type": "Gear",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/336131d1-3bc8-4b39-b893-5fce9be8ce7f/render-mpvn1gb1.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Overwatch — Panam's Gift",
+    "type": "Gear",
+    "cost": 4,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-riot-shield": {
+    "id": "cb-riot-shield",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Riot Shield",
+        "type": "Gear",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/ce570725-0de7-438a-a9c8-33074a7180ba/render-mpvn01qb.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Riot Shield",
+    "type": "Gear",
+    "cost": 2,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-zetatech-berserk": {
+    "id": "cb-zetatech-berserk",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Zetatech Berserk",
+        "type": "Gear",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/8b8bcfcd-37c8-4bca-8c25-17a3b3363349/render-mpvmyqtk.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Zetatech Berserk",
+    "type": "Gear",
+    "cost": 6,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-don-t-fear-the-reaper": {
+    "id": "cb-don-t-fear-the-reaper",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "(Don't Fear) The Reaper",
+        "type": "Program",
+        "cost": 7,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/e96d3167-5115-4c82-9b35-546cba0aaead/render-mpvmj3qx.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "(Don't Fear) The Reaper",
+    "type": "Program",
+    "cost": 7,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-fool-on-the-hill": {
+    "id": "cb-fool-on-the-hill",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Fool on the Hill",
+        "type": "Program",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/7751b719-978b-44b1-a82f-b2881d3a416e/render-mpvmiefg.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fool on the Hill",
+    "type": "Program",
+    "cost": 2,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-memory-relapse": {
+    "id": "cb-memory-relapse",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Memory Relapse",
+        "type": "Program",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/ef9f2959-de87-4a54-be45-5c9dcc507aba/render-mpvmgucg.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Memory Relapse",
+    "type": "Program",
+    "cost": 4,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-synapse-burnout": {
+    "id": "cb-synapse-burnout",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Synapse Burnout",
+        "type": "Program",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/4277845b-1209-46df-8353-8fd36f56148a/render-mpvmg7fh.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Synapse Burnout",
+    "type": "Program",
+    "cost": 1,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-take-control": {
+    "id": "cb-take-control",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Take Control",
+        "type": "Program",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/bc1401d4-5b9b-495a-853e-0a22a11f6f4c/render-mpvmhrfm.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Take Control",
+    "type": "Program",
+    "cost": 2,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-we-gotta-live-together": {
+    "id": "cb-we-gotta-live-together",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "We Gotta Live Together",
+        "type": "Program",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/63821536-cdf5-4347-812a-0bf72d727596/render-mpvmfm9u.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "We Gotta Live Together",
+    "type": "Program",
+    "cost": 5,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-wild-in-the-streets": {
+    "id": "cb-wild-in-the-streets",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Wild in the Streets",
+        "type": "Program",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/54f0308f-8fb2-4861-a414-c15ca24426c3/render-mpvmbjzl.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Wild in the Streets",
+    "type": "Program",
+    "cost": 5,
+    "RAM Color": "🟩 Green"
+  },
+  "cb-judy-a-lvarez-braindance-maestro": {
+    "id": "cb-judy-a-lvarez-braindance-maestro",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Judy Álvarez — Braindance Maestro",
+        "type": "Legend",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/8d0ad645-ac9a-4ecb-93d0-4c2061a4c477/render-mpvmp40n.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Judy Álvarez — Braindance Maestro",
+    "type": "Legend",
+    "cost": null,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-sasha-yakovleva-won-t-let-you-down": {
+    "id": "cb-sasha-yakovleva-won-t-let-you-down",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sasha Yakovleva — Won't Let You Down",
+        "type": "Legend",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/2647f881-5a7e-4ffb-b231-6574dc531f43/render-mpvmpbjg.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sasha Yakovleva — Won't Let You Down",
+    "type": "Legend",
+    "cost": 5,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-wakako-okada-peace-and-harmony": {
+    "id": "cb-wakako-okada-peace-and-harmony",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Wakako Okada — Peace and Harmony",
+        "type": "Legend",
+        "cost": null,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/8f7a7d0b-5935-4732-a9ba-76b19467d5a0/render-mpvmnkvw.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Wakako Okada — Peace and Harmony",
+    "type": "Legend",
+    "cost": null,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-delamain-rideshare-ai": {
+    "id": "cb-delamain-rideshare-ai",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Delamain — Rideshare AI",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/c7eba3a0-63cb-4311-988e-d487a7c0841a/render-mpvm49le.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Delamain — Rideshare AI",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-hacked-corpo": {
+    "id": "cb-hacked-corpo",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Hacked Corpo",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/7dc71978-0995-4b93-9ba3-83d1118c3c4b/render-mpvlwinn.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hacked Corpo",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-jacked-in-voodoo-boy": {
+    "id": "cb-jacked-in-voodoo-boy",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Jacked-In Voodoo Boy",
+        "type": "Unit",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/8e2f2d0c-0e92-4744-a510-a9c7ac371d81/render-mpvluy4x.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Jacked-In Voodoo Boy",
+    "type": "Unit",
+    "cost": 2,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-judy-a-lvarez-nothing-to-doubt": {
+    "id": "cb-judy-a-lvarez-nothing-to-doubt",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Judy Álvarez — Nothing to Doubt",
+        "type": "Unit",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/dcfe8370-9abf-4395-b50b-efea505609ba/render-mpvlolwq.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Judy Álvarez — Nothing to Doubt",
+    "type": "Unit",
+    "cost": 6,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-lizzy-wizzy-delicate-weapon": {
+    "id": "cb-lizzy-wizzy-delicate-weapon",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lizzy Wizzy — Delicate Weapon",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/7072a2d2-ec4f-4575-909e-15a107dfef79/render-mpvm9lt7.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lizzy Wizzy — Delicate Weapon",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-misty-olszewski-mender-of-broken-spirits": {
+    "id": "cb-misty-olszewski-mender-of-broken-spirits",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Misty Olszewski — Mender of Broken Spirits",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/17252514-02ba-4d0d-a9cc-3590cee528af/render-mpvm7tns.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Misty Olszewski — Mender of Broken Spirits",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-modded-kusanagi": {
+    "id": "cb-modded-kusanagi",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Modded Kusanagi",
+        "type": "Unit",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/50e8101a-3d0e-45ea-9444-22007f7f9cb0/render-mpvlvlr5.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Modded Kusanagi",
+    "type": "Unit",
+    "cost": 6,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-modded-muramasa": {
+    "id": "cb-modded-muramasa",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Modded Muramasa",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/3bd6767b-ef0c-47dd-9f47-d00112a74111/render-mpvlvws6.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Modded Muramasa",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-mox-inciters": {
+    "id": "cb-mox-inciters",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Mox Inciters",
+        "type": "Unit",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/354fd7d3-070d-4767-989c-5b3efbd9f30d/render-mpvlrgqe.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mox Inciters",
+    "type": "Unit",
+    "cost": 3,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-psycho-squad": {
+    "id": "cb-psycho-squad",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Psycho Squad",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/d7e0e2e5-6e22-4b45-9e91-50936773e2e1/render-mpvlz3xb.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Psycho Squad",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-rita-wheeler-no-stupid-questions": {
+    "id": "cb-rita-wheeler-no-stupid-questions",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rita Wheeler — No Stupid Questions",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/5d795b32-9ad8-4c94-abd4-d01e389db389/render-mpvm1o1g.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rita Wheeler — No Stupid Questions",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-rogue-amendiares-queen-of-the-afterlife": {
+    "id": "cb-rogue-amendiares-queen-of-the-afterlife",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rogue Amendiares — Queen of the Afterlife",
+        "type": "Unit",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/3193a6bd-3e99-4501-9c5c-8d5ea32c779c/render-mpvlna4t.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rogue Amendiares — Queen of the Afterlife",
+    "type": "Unit",
+    "cost": 5,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-westbrook-netrunner": {
+    "id": "cb-westbrook-netrunner",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Westbrook Netrunner",
+        "type": "Unit",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/5801d086-7e87-4645-95e2-68239230098d/render-mpvm1lhk.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Westbrook Netrunner",
+    "type": "Unit",
+    "cost": 4,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-netwatch-netdriver": {
+    "id": "cb-netwatch-netdriver",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "NetWatch Netdriver",
+        "type": "Gear",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/07f119d6-8fb2-4b23-9862-818a7e941010/render-mpvn02yn.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "NetWatch Netdriver",
+    "type": "Gear",
+    "cost": 3,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-tetratronic-rippler": {
+    "id": "cb-tetratronic-rippler",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tetratronic Rippler",
+        "type": "Gear",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/576f82ff-3c4d-4637-aa91-2773de43bbc8/render-mpvmxg2k.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tetratronic Rippler",
+    "type": "Gear",
+    "cost": 1,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-chrome-reverie": {
+    "id": "cb-chrome-reverie",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Chrome Reverie",
+        "type": "Program",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/3f0319b8-e315-4e71-85b7-147a5b8ceba5/render-mpvmbh1k.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Chrome Reverie",
+    "type": "Program",
+    "cost": 3,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-les-e-le-mens": {
+    "id": "cb-les-e-le-mens",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Les Élémens",
+        "type": "Program",
+        "cost": 5,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/14a0b813-d5e3-46e6-a001-aebbd3a95f11/render-mpvmf9j4.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Les Élémens",
+    "type": "Program",
+    "cost": 5,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-nocturne-op55-n1": {
+    "id": "cb-nocturne-op55-n1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Nocturne OP55 N1",
+        "type": "Program",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/70c7f11e-e41d-44f2-b5cd-e8568915d6ac/render-mqfcqety.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Nocturne OP55 N1",
+    "type": "Program",
+    "cost": 3,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-pyramid-song": {
+    "id": "cb-pyramid-song",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Pyramid Song",
+        "type": "Program",
+        "cost": 3,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/3b1d0570-bb8e-4ea5-9ec7-c698d9c9f94d/render-mpvmi5k3.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pyramid Song",
+    "type": "Program",
+    "cost": 3,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-three-mouths-one-desire": {
+    "id": "cb-three-mouths-one-desire",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Three Mouths, One Desire",
+        "type": "Program",
+        "cost": 2,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/573a88e9-ac01-4402-8e3d-2420dc4ca949/render-mpvmdwco.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Three Mouths, One Desire",
+    "type": "Program",
+    "cost": 2,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-towerfall": {
+    "id": "cb-towerfall",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Towerfall",
+        "type": "Program",
+        "cost": 6,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/15920617-a06f-4302-9dfb-c85d3470c7eb/render-mpvmjkr0.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Towerfall",
+    "type": "Program",
+    "cost": 6,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-trust-no-one": {
+    "id": "cb-trust-no-one",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Trust No One",
+        "type": "Program",
+        "cost": 1,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/70a2a18e-05c2-4a49-9236-e33b2c9819a5/render-mpvmdh2r.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Trust No One",
+    "type": "Program",
+    "cost": 1,
+    "RAM Color": "🟦 Blue"
+  },
+  "cb-unlikely-bond": {
+    "id": "cb-unlikely-bond",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Unlikely Bond",
+        "type": "Program",
+        "cost": 4,
+        "image": "https://dstcynss47vun.cloudfront.net/prod/cyberpunk/portal/b21f86a3-cb77-44a3-bf94-4c5e068ac2c8/render-mpvmcn88.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "Unlikely Bond",
+    "type": "Program",
+    "cost": 4,
     "RAM Color": "🟦 Blue"
   }
 }
