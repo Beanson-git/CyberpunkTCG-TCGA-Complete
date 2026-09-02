@@ -120,6 +120,7 @@
           "MyGigs": {
             "type": "custom",
             "defaultValue": {
+              "engineTurn": 0,
               "dices": [
                 {
                   "dice": 4,
@@ -157,7 +158,7 @@
             "events": {
               "onUpdate": "const sum = (a, c) => (a || []).reduce((s, d) => s + (c(d) ? (Number(d.value) || 0) : 0), 0); game.data.Totals.my = sum(game.data.MyGigs?.dices, d => !d.stolen) + sum(game.data.OppGigs?.dices, d => d.stolen); game.data.Totals.opp = sum(game.data.OppGigs?.dices, d => !d.stolen) + sum(game.data.MyGigs?.dices, d => d.stolen);",
               "onOpponentUpdate": "game.data.OppGigs = opponentGame.data.MyGigs",
-              "onNewTurn": "game.data.MyGigs.hasRolled = false"
+              "onNewTurn": "game.data.MyGigs.hasRolled = false; game.data.MyGigs.engineTurn = (game.data.MyGigs.engineTurn || 0) + 1; cpStartTurn();"
             }
           },
           "OppGigs": {
@@ -439,7 +440,7 @@
                               "opacity": "{{game.turn.isMyTurn && !game.data.MyGigs.hasRolled ? 1 : 0}}"
                             }
                           },
-                          "children": "Don't forget to roll!"
+                          "children": "Engine turn: {{game.data.MyGigs.engineTurn}}"
                         }
                       ]
                     },
