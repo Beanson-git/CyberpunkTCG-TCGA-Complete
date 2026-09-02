@@ -15,10 +15,13 @@
     "dataUrl": "https://beanson-git.github.io/CyberpunkTCG-TCGA-Complete/Test/Cyberpunk-TCG-Cards.json",
     "cardBack": "https://i.postimg.cc/NMZyFHJM/CPTCG-card-Back.png",
     "extraCardBacks": {
-      "Legend": "https://i.postimg.cc/7ZPQmG94/CPTCG-Card-Back-Legend.png"
+        "Legend": "https://i.postimg.cc/7ZPQmG94/CPTCG-Card-Back-Legend.png"
     }
-  },
-  "deckBuilding": {
+},
+"scriptsUrls": [
+    "https://beanson-git.github.io/CyberpunkTCG-TCGA-Complete/Test/Script_Cyberpunk.js"
+],
+"deckBuilding": {
     "mainFilters": [
       "type",
       "cost",

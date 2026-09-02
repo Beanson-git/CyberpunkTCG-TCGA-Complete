@@ -1,115 +1,369 @@
-const fs = require('fs');
-const https = require('https');
+/*
+ * Cyberpunk TCG - TCG Arena Gameplay Engine
+ *
+ * Engine version: 0.1
+ *
+ * Current Beta rules foundation:
+ * - Start Phase
+ * - Main Phase
+ * - Player state
+ * - Once-per-turn state
+ * - Gig state helpers
+ * - Street Cred
+ * - Victory detection
+ *
+ * This file intentionally does NOT implement card-specific effects yet.
+ */
 
-// URL
-const url = 'https://ap.netdeck.gg/api/cards/cyberpunk?limit=60&offset=0';
+const CYBERPUNK_ENGINE_VERSION = "0.1.0";
 
-// Download API result JSON
-function fetchJSON(url) {
-  return new Promise((resolve, reject) => {
-    https.get(url, res => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve(JSON.parse(data)));
-    }).on('error', reject);
-  });
+/* =========================================================
+ * GENERAL HELPERS
+ * ========================================================= */
+
+function cpLog(message) {
+    if (typeof chatLog === "function") {
+        chatLog("[Cyberpunk] " + message);
+    }
 }
 
-async function modifyJsonFile(outputFilePath) {
-  try {
-    console.log("📥 Fetch...");
-    const json = await fetchJSON(url);
+function cpNumber(value, fallback = 0) {
+    const n = Number(value);
+    return Number.isFinite(n) ? n : fallback;
+}
 
-    const result = {};
-    let errorCount = 0;
+/* =========================================================
+ * PLAYER STATE
+ * ========================================================= */
 
-    console.log("🔧 Building cards…");
+function cpCreatePlayerState() {
+    return {
+        eddies: 0,
 
-    json.items.forEach(c => {
-      const cardId = c.fullIdentifier.replace(/ /g, '').replace(/•/g, '-');
+        soldThisTurn: false,
+        calledLegendThisTurn: false,
 
-      if (!c.color || c.color === "") {
-        // cartes coop → on ignore
-        errorCount++;
-        return;
-      }
+        streetCred: 0,
+        gigCount: 0
+    };
+}
 
-      const legality = {}
-      const f = c.allowedInFormats
-      if (f?.Core?.allowed === true) {
-        legality.COR = true
-        if (c.fullName === "Dalmatian Puppy - Tail Wagger") {
-          legality.COR = 99
-        }
-      }
-      if (f?.Infinity?.allowed === true) {
-        legality.INF = true
-        if (c.fullName === "Dalmatian Puppy - Tail Wagger") {
-          legality.INF = 99
-        }
-      }
+/* =========================================================
+ * GAME STATE
+ * ========================================================= */
 
-      const newCard = {
-        id: cardId,
-        face: {
-          front: {
-            name: { en: c.fullName },
-            type: c.type,
-            cost: c.cost,
-            image: {
-              en: c.images.full
-            }, // EN
-            isHorizontal: c.type === "Location"
-          }
+function cpCreateGameState() {
+    return {
+        version: CYBERPUNK_ENGINE_VERSION,
+
+        initialized: true,
+
+        turn: {
+            number: 1,
+            phase: "START"
         },
-        name: { en: c.fullName },
-        type: c.type,
-        cost: c.cost,
-        rarity: { en: c.rarity },
-        lore: c.lore,
-        strength: c.strength,
-        willpower: c.willpower,
-        color: c.colors ?? [c.color],
-        _legal: legality
-      };
 
-      if (result[cardId]) {
-        console.log(`⚠️ Duplicate EN card: ${c.fullName} (${cardId})`);
-        errorCount++;
-      } else {
-        result[cardId] = newCard;
-      }
-    });
+        players: {
+            my: cpCreatePlayerState(),
+            opponent: cpCreatePlayerState()
+        },
 
-    console.log("🇫🇷 Adding French images…");
+        combat: {
+            active: false,
+            attacker: null,
+            target: null,
+            reactionWindow: false,
+            blocker: null
+        },
 
-    let frOnlyWarnings = 0;
-
-    jsonFR.cards.forEach(c => {
-      const cardId = c.fullIdentifier.replace(/ /g, '').replace(/•/g, '-').replace("-FR-", "-EN-");
-
-      if (result[cardId]) {
-        // La carte existe → on ajoute l’image FR
-        result[cardId].face.front.image.fr = c.images.full;
-        result[cardId].face.front.name.fr = c.fullName;
-        result[cardId].name.fr = c.fullName;
-        result[cardId].rarity.fr = c.rarity;
-      } else {
-        // Carte FR sans version EN → warning
-        console.log(`⚠️ FR card not found in EN: ${cardId} (${c.fullName})`);
-        frOnlyWarnings++;
-      }
-    });
-
-    fs.writeFileSync(outputFilePath, JSON.stringify(result, null, 2), 'utf8');
-
-    console.log(`\n✅ Saved ${Object.keys(result).length} cards`);
-    console.log(`⚠️ EN errors: ${errorCount}`);
-    console.log(`⚠️ FR-only warnings: ${frOnlyWarnings}`);
-
-  } catch (err) {
-    console.error('❌ Error:', err);
-  }
+        overtime: false,
+        gameOver: false,
+        winner: null
+    };
 }
 
-modifyJsonFile('LorcanaCards.json');
+/*
+ * Initialise the Cyberpunk game state if it doesn't exist.
+ */
+function cpEnsureState() {
+    if (!game.data.cyberpunk) {
+        game.data.cyberpunk = cpCreateGameState();
+        cpLog("Game engine initialised.");
+    }
+
+    return game.data.cyberpunk;
+}
+
+/* =========================================================
+ * GIG HELPERS
+ * ========================================================= */
+
+/*
+ * Return the player's current controlled Gigs.
+ *
+ * A die belongs to the player when:
+ * - it is their own die and has not been stolen
+ * - OR it is an opponent die that has been stolen
+ */
+function cpGetMyGigs() {
+    const state = cpEnsureState();
+
+    const own = game.data.MyGigs?.dices || [];
+    const stolen = game.data.OppGigs?.dices || [];
+
+    return [
+        ...own.filter(die => !die.stolen && cpNumber(die.value) > 0),
+        ...stolen.filter(die => die.stolen && cpNumber(die.value) > 0)
+    ];
+}
+
+function cpGetOpponentGigs() {
+    const own = game.data.OppGigs?.dices || [];
+    const stolen = game.data.MyGigs?.dices || [];
+
+    return [
+        ...own.filter(die => !die.stolen && cpNumber(die.value) > 0),
+        ...stolen.filter(die => die.stolen && cpNumber(die.value) > 0)
+    ];
+}
+
+/*
+ * Number of Gigs currently controlled.
+ */
+function cpGetMyGigCount() {
+    return cpGetMyGigs().length;
+}
+
+function cpGetOpponentGigCount() {
+    return cpGetOpponentGigs().length;
+}
+
+/*
+ * Street Cred is the sum of the face values of all
+ * Gig dice currently controlled by the player.
+ */
+function cpGetMyStreetCred() {
+    return cpGetMyGigs().reduce(
+        (total, die) => total + cpNumber(die.value),
+        0
+    );
+}
+
+function cpGetOpponentStreetCred() {
+    return cpGetOpponentGigs().reduce(
+        (total, die) => total + cpNumber(die.value),
+        0
+    );
+}
+
+/*
+ * Synchronise derived Gig values into our engine state.
+ */
+function cpUpdateGigState() {
+    const state = cpEnsureState();
+
+    state.players.my.gigCount = cpGetMyGigCount();
+    state.players.my.streetCred = cpGetMyStreetCred();
+
+    state.players.opponent.gigCount = cpGetOpponentGigCount();
+    state.players.opponent.streetCred = cpGetOpponentStreetCred();
+
+    return state;
+}
+
+/* =========================================================
+ * TURN STATE
+ * ========================================================= */
+
+function cpSetPhase(phase) {
+    const state = cpEnsureState();
+
+    state.turn.phase = phase;
+
+    cpLog("Phase: " + phase);
+}
+
+function cpStartTurn() {
+    const state = cpEnsureState();
+
+    state.turn.phase = "START";
+
+    state.players.my.soldThisTurn = false;
+    state.players.my.calledLegendThisTurn = false;
+
+    state.players.opponent.soldThisTurn = false;
+    state.players.opponent.calledLegendThisTurn = false;
+
+    cpUpdateGigState();
+
+    cpCheckVictory();
+
+    if (!state.gameOver) {
+        cpLog("Start Phase.");
+    }
+}
+
+function cpEnterMainPhase() {
+    const state = cpEnsureState();
+
+    if (state.gameOver) {
+        return;
+    }
+
+    state.turn.phase = "MAIN";
+
+    cpLog("Main Phase.");
+}
+
+function cpEndTurn() {
+    const state = cpEnsureState();
+
+    if (state.gameOver) {
+        return;
+    }
+
+    cpUpdateGigState();
+
+    state.turn.number += 1;
+
+    cpStartTurn();
+}
+
+/* =========================================================
+ * ONCE-PER-TURN ACTIONS
+ * ========================================================= */
+
+function cpCanSell() {
+    const state = cpEnsureState();
+
+    return !state.players.my.soldThisTurn;
+}
+
+function cpMarkSold() {
+    const state = cpEnsureState();
+
+    state.players.my.soldThisTurn = true;
+}
+
+function cpCanCallLegend() {
+    const state = cpEnsureState();
+
+    return !state.players.my.calledLegendThisTurn;
+}
+
+function cpMarkLegendCalled() {
+    const state = cpEnsureState();
+
+    state.players.my.calledLegendThisTurn = true;
+}
+
+/* =========================================================
+ * COMBAT STATE
+ * ========================================================= */
+
+function cpBeginAttack(attackerId, target) {
+    const state = cpEnsureState();
+
+    if (state.gameOver) {
+        return false;
+    }
+
+    state.combat.active = true;
+    state.combat.attacker = attackerId;
+    state.combat.target = target;
+    state.combat.reactionWindow = false;
+    state.combat.blocker = null;
+
+    return true;
+}
+
+function cpBeginReactionWindow() {
+    const state = cpEnsureState();
+
+    if (!state.combat.active) {
+        return;
+    }
+
+    state.combat.reactionWindow = true;
+}
+
+function cpEndAttack() {
+    const state = cpEnsureState();
+
+    state.combat.active = false;
+    state.combat.attacker = null;
+    state.combat.target = null;
+    state.combat.reactionWindow = false;
+    state.combat.blocker = null;
+}
+
+/* =========================================================
+ * VICTORY
+ * ========================================================= */
+
+function cpCheckVictory() {
+    const state = cpUpdateGigState();
+
+    /*
+     * Current Beta rule:
+     * Start your turn with 7 or more Gigs to win.
+     */
+    if (
+        state.turn.phase === "START" &&
+        state.players.my.gigCount >= 7
+    ) {
+        state.gameOver = true;
+        state.winner = "my";
+
+        cpLog("YOU WIN — you started your turn with 7 Gigs.");
+        return true;
+    }
+
+    if (
+        state.turn.phase === "START" &&
+        state.players.opponent.gigCount >= 7
+    ) {
+        state.gameOver = true;
+        state.winner = "opponent";
+
+        cpLog("RIVAL WINS — they started their turn with 7 Gigs.");
+        return true;
+    }
+
+    return false;
+}
+
+/* =========================================================
+ * DEBUG / TEST HELPERS
+ * ========================================================= */
+
+/*
+ * Useful during development.
+ * These do not implement game rules themselves.
+ */
+
+function cpDebugState() {
+    const state = cpUpdateGigState();
+
+    cpLog(
+        "Turn " +
+        state.turn.number +
+        " | Phase " +
+        state.turn.phase +
+        " | My Gigs " +
+        state.players.my.gigCount +
+        " | My Street Cred " +
+        state.players.my.streetCred +
+        " | Eddies " +
+        state.players.my.eddies
+    );
+
+    return state;
+}
+
+/* =========================================================
+ * INITIALISE
+ * ========================================================= */
+
+cpEnsureState();
+cpUpdateGigState();
