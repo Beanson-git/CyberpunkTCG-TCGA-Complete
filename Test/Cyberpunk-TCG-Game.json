@@ -19,7 +19,7 @@
     }
 },
 "scriptsUrls": [
-  "https://raw.githubusercontent.com/Beanson-git/CyberpunkTCG-TCGA-Complete/cyberpunk-gameplay/Test/Script_Cyberpunk.js"
+  "https://cdn.jsdelivr.net/gh/Beanson-git/CyberpunkTCG-TCGA-Complete@cyberpunk-gameplay/Test/Script_Cyberpunk.js"
 ],
 "deckBuilding": {
     "mainFilters": [
