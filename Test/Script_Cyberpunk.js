@@ -224,29 +224,10 @@ function cpCanGainGig(index) {
 /*
  * Gain the selected Gig.
  */
-function cpGainGig(index) {
-    if (!cpCanGainGig(index)) {
-        cpLog("That Gig cannot be gained right now.");
-        return false;
-    }
+async function cpGainGig(index) {
+    cpLog("cpGainGig called. Index: " + index);
 
-    const dice = game.data.MyGigs.dices;
-    const die = dice[index];
-
-    die.value =
-        Math.floor(Math.random() * cpNumber(die.dice)) + 1;
-
-    game.data.MyGigs.hasRolled = true;
-
-    cpUpdateGigState();
-    cpCheckVictory();
-
-    cpLog(
-        "Gained Gig: d" +
-        die.dice +
-        " → " +
-        die.value
-    );
+    game.data.MyGigs.testRoll = index;
 
     return true;
 }

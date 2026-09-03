@@ -121,6 +121,7 @@
             "type": "custom",
             "defaultValue": {
               "engineTurn": 0,
+              "testRoll": -1,
               "dices": [
                 {
                   "dice": 4,
@@ -440,7 +441,7 @@
                               "opacity": "{{game.turn.isMyTurn && !game.data.MyGigs.hasRolled ? 1 : 0}}"
                             }
                           },
-                          "children": "Engine turn: {{game.data.MyGigs.engineTurn}}"
+                          "children": "Engine turn: {{game.data.MyGigs.engineTurn}} | Roll index: {{game.data.MyGigs.testRoll}}"
                         }
                       ]
                     },
