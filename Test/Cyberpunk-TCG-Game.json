@@ -158,7 +158,7 @@
             "events": {
               "onUpdate": "const sum = (a, c) => (a || []).reduce((s, d) => s + (c(d) ? (Number(d.value) || 0) : 0), 0); game.data.Totals.my = sum(game.data.MyGigs?.dices, d => !d.stolen) + sum(game.data.OppGigs?.dices, d => d.stolen); game.data.Totals.opp = sum(game.data.OppGigs?.dices, d => !d.stolen) + sum(game.data.MyGigs?.dices, d => d.stolen);",
               "onOpponentUpdate": "game.data.OppGigs = opponentGame.data.MyGigs",
-              "onNewTurn": "game.data.MyGigs.hasRolled = false; game.data.MyGigs.engineTurn = (game.data.MyGigs.engineTurn || 0) + 1; cpStartTurn();"
+           "onNewTurn": "game.data.MyGigs.hasRolled = false; game.data.MyGigs.engineTurn = (game.data.MyGigs.engineTurn || 0) + 1; cpStartTurn();"
             }
           },
           "OppGigs": {
@@ -462,7 +462,7 @@
                               "className": "position-relative on-section-hovered",
                               "style": {
                                 "width": "var(--gigs-width)",
-                                "pointerEvents": "{{item.stolen ? 'none' : 'auto'}}"
+                                "pointerEvents": "{{item.stolen || item.value !== 0 || (item.dice === 20 && !game.data.MyGigs.dices.filter(d => d.dice !== 20).every(d => d.value !== 0)) ? 'none' : 'auto'}}"
                               }
                             },
                             "children": [
@@ -481,8 +481,7 @@
                                     "fontWeight": "var(--gigs-font-weight)",
                                     "padding": "var(--gigs-padding)"
                                   }
-                                },
-                                "onChange": "game.data.MyGigs.dices[index].value = delta; chatLog('changed dice to ' + game.data.MyGigs.dices[index].value + `/` + item.dice)"
+                                }
                               },
                               {
                                 "type": "button",
@@ -493,7 +492,7 @@
                                   }
                                 },
                                 "children": "Roll",
-                                "onClick": "game.data.MyGigs.dices[index].value = Math.floor(Math.random() * game.data.MyGigs.dices[index].dice) + 1; game.data.MyGigs.hasRolled = true; chatLog(`rolled ` + game.data.MyGigs.dices[index].value + '/' + game.data.OppGigs.dices[index].dice)"
+                                "onClick": "cpGainGig(index)"
                               }
                             ]
                           }

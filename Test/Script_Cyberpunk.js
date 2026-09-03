@@ -172,6 +172,86 @@ function cpUpdateGigState() {
 }
 
 /* =========================================================
+ * GIG ACQUISITION
+ * ========================================================= */
+
+/*
+ * Check whether all non-d20 Gigs have already been acquired.
+ */
+function cpNonD20GigsComplete() {
+    const dice = game.data.MyGigs?.dices || [];
+
+    return dice
+        .filter(die => cpNumber(die.dice) !== 20)
+        .every(die => cpNumber(die.value) > 0);
+}
+
+/*
+ * Determine whether a specific die can currently be gained.
+ */
+function cpCanGainGig(index) {
+    const state = cpEnsureState();
+    const dice = game.data.MyGigs?.dices || [];
+    const die = dice[index];
+
+    if (!die) {
+        return false;
+    }
+
+    // Must be our turn.
+    if (!game.turn.isMyTurn) {
+        return false;
+    }
+
+    // Only one Gig may be gained per turn.
+    if (game.data.MyGigs.hasRolled) {
+        return false;
+    }
+
+    // Already acquired.
+    if (cpNumber(die.value) > 0) {
+        return false;
+    }
+
+    // The d20 is only legal after all other dice have been acquired.
+    if (cpNumber(die.dice) === 20 && !cpNonD20GigsComplete()) {
+        return false;
+    }
+
+    return true;
+}
+
+/*
+ * Gain the selected Gig.
+ */
+function cpGainGig(index) {
+    if (!cpCanGainGig(index)) {
+        cpLog("That Gig cannot be gained right now.");
+        return false;
+    }
+
+    const dice = game.data.MyGigs.dices;
+    const die = dice[index];
+
+    die.value =
+        Math.floor(Math.random() * cpNumber(die.dice)) + 1;
+
+    game.data.MyGigs.hasRolled = true;
+
+    cpUpdateGigState();
+    cpCheckVictory();
+
+    cpLog(
+        "Gained Gig: d" +
+        die.dice +
+        " → " +
+        die.value
+    );
+
+    return true;
+}
+
+/* =========================================================
  * TURN STATE
  * ========================================================= */
 
