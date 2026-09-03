@@ -442,7 +442,14 @@
                             }
                           },
                           "children": "Engine turn: {{game.data.MyGigs.engineTurn}} | Roll index: {{game.data.MyGigs.testRoll}}"
-                        }
+                        },
+
+                        {
+    "type": "button",
+    "children": "TEST CLICK",
+    "onClick": "game.data.MyGigs.testRoll = 99"
+}
+
                       ]
                     },
                     {
