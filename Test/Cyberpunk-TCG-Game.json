@@ -493,7 +493,7 @@
                                   }
                                 },
                                 "children": "Roll",
-                                "onClick": "await cpGainGig(index)"
+                                "onClick": "game.data.MyGigs.testRoll = index"
                               }
                             ]
                           }
