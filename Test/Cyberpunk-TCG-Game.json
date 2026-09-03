@@ -493,7 +493,7 @@
                                   }
                                 },
                                 "children": "Roll",
-                                "onClick": "cpGainGig(index)"
+                                "onClick": "await cpGainGig(index)"
                               }
                             ]
                           }
