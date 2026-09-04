@@ -438,7 +438,8 @@
                           "props": {
                             "className": "box-container position-absolute start-50 top-50 translate-middle text-nowrap m-0",
                             "style": {
-                              "opacity": "{{game.turn.isMyTurn && !game.data.MyGigs.hasRolled ? 1 : 0}}"
+                              "opacity": "{{game.turn.isMyTurn && !game.data.MyGigs.hasRolled ? 1 : 0}}",
+                              "pointerEvents": "none"
                             }
                           },
                           "children": "Engine turn: {{game.data.MyGigs.engineTurn}} | Roll index: {{game.data.MyGigs.testRoll}}"
