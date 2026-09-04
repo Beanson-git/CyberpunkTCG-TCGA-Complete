@@ -459,7 +459,7 @@
         }
     },
     "children": "DIAG CLICK",
-    "onClick": "chatLog('DIAG CLICK fired ' + Date.now()); game.data.MyGigs.testRoll = 99"
+    "onClick": "game.data.MyGigs.hasRolled = true; chatLog('DIAG hasRolled=' + game.data.MyGigs.hasRolled)"
 }
 
                       ]
