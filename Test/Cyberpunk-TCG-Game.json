@@ -446,9 +446,19 @@
 
                         {
     "type": "button",
-    "props": {},
-    "children": "TEST CLICK",
-    "onClick": "game.data.MyGigs.testRoll = 99"
+    "props": {
+        "style": {
+            "background": "#ffeb3b",
+            "color": "#000",
+            "padding": "0.4vh 1vh",
+            "border": "2px solid #d83938",
+            "fontWeight": "700",
+            "position": "relative",
+            "zIndex": 9999
+        }
+    },
+    "children": "DIAG CLICK",
+    "onClick": "chatLog('DIAG CLICK fired ' + Date.now()); game.data.MyGigs.testRoll = 99"
 }
 
                       ]
