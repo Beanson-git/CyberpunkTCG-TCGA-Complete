@@ -458,8 +458,8 @@
             "zIndex": 9999
         }
     },
-    "children": "DIAG CLICK",
-    "onClick": "game.data.MyGigs.hasRolled = true; chatLog('DIAG hasRolled=' + game.data.MyGigs.hasRolled)"
+    "children": "DIAG v4 hasRolled",
+    "onClick": "game.data.MyGigs.hasRolled = true; chatLog('DIAG v4 hasRolled=' + game.data.MyGigs.hasRolled)"
 }
 
                       ]
